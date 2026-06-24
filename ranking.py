@@ -1,6 +1,9 @@
-BASE_URL = "https://play.fifa.com/json/fantasy/"
+import json
+from collections import defaultdict
 
-team_strength = {
+import requests
+
+TEAM_STRENGTH = {
     "France": 10.0,
     "Spain": 9.7,
     "Argentina": 9.6,
@@ -50,3 +53,76 @@ team_strength = {
     "New Zealand": 2.3,
     "Curaçao": 2.0,
 }
+
+full_player_info = defaultdict(dict)
+fixtures = {}
+teams = {}
+
+
+def map_id_squad():
+    squad_url = "https://play.fifa.com/json/match_predictor/squads.json"
+    squads = requests.get(
+        squad_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+    )
+    data = squads.json()
+
+    for m in data:
+        id = m["id"]
+        country = m["name"]
+
+        teams[id] = country
+
+
+def map_id_match():
+    round_url = "https://play.fifa.com/json/fantasy/rounds.json"
+    rounds = requests.get(
+        round_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+    )
+    rounds_data = rounds.json()
+    for rnd in rounds_data:
+        for m in rnd.get("tournaments", []):
+            if (
+                m.get("status") == "scheduled"
+                and m.get("homeSquadId")
+                and m.get("awaySquadId")
+            ):
+                fixtures[m["id"]] = [m["homeSquadId"], m["awaySquadId"]]
+
+
+def map_player_position():
+    players_url = "https://play.fifa.com/json/fantasy/players.json"
+    players = requests.get(
+        players_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+    )
+    data = players.json()
+
+    for p in data:
+        name = f"{p['firstName']} {p['lastName']}"
+        position = p["position"]
+        full_player_info[name]["position"] = position
+
+
+def map_player_fixture(data):
+    for r in data:
+        p = r["stats"]
+        name = f"{r['firstName']} {r['lastName']}"
+        fixture = p["nextFixtureFromScheduledRound"]
+        team = r["squadId"]
+
+        if team == fixtures[fixture][0]:
+            full_player_info[name]["opponent"] = fixtures[fixture][1]
+        else:
+            full_player_info[name]["opponent"] = fixtures[fixture][0]
+
+
+players_url = "https://play.fifa.com/json/fantasy/players.json"
+players = requests.get(
+    players_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+)
+map_id_match()
+map_id_squad()
+data = players.json()
+
+map_player_fixture(data)
+map_player_position()
+print(json.dumps(full_player_info, indent=4))
