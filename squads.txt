@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Algeria",
+        "abbr": "ALG"
+    },
+    {
+        "id": 2,
+        "name": "Argentina",
+        "abbr": "ARG"
+    },
+    {
+        "id": 3,
+        "name": "Australia",
+        "abbr": "AUS"
+    },
+    {
+        "id": 4,
+        "name": "Austria",
+        "abbr": "AUT"
+    },
+    {
+        "id": 5,
+        "name": "Belgium",
+        "abbr": "BEL"
+    },
+    {
+        "id": 6,
+        "name": "Bosnia and Herzegovina",
+        "abbr": "BIH"
+    },
+    {
+        "id": 7,
+        "name": "Brazil",
+        "abbr": "BRA"
+    },
+    {
+        "id": 8,
+        "name": "Cabo Verde",
+        "abbr": "CPV"
+    },
+    {
+        "id": 9,
+        "name": "Canada",
+        "abbr": "CAN"
+    },
+    {
+        "id": 10,
+        "name": "Colombia",
+        "abbr": "COL"
+    },
+    {
+        "id": 11,
+        "name": "Congo DR",
+        "abbr": "COD"
+    },
+    {
+        "id": 12,
+        "name": "C\u00f4te d'Ivoire",
+        "abbr": "CIV"
+    },
+    {
+        "id": 13,
+        "name": "Croatia",
+        "abbr": "CRO"
+    },
+    {
+        "id": 14,
+        "name": "Cura\u00e7ao",
+        "abbr": "CUW"
+    },
+    {
+        "id": 15,
+        "name": "Czechia",
+        "abbr": "CZE"
+    },
+    {
+        "id": 16,
+        "name": "Ecuador",
+        "abbr": "ECU"
+    },
+    {
+        "id": 17,
+        "name": "Egypt",
+        "abbr": "EGY"
+    },
+    {
+        "id": 18,
+        "name": "England",
+        "abbr": "ENG"
+    },
+    {
+        "id": 19,
+        "name": "France",
+        "abbr": "FRA"
+    },
+    {
+        "id": 20,
+        "name": "Germany",
+        "abbr": "GER"
+    },
+    {
+        "id": 21,
+        "name": "Ghana",
+        "abbr": "GHA"
+    },
+    {
+        "id": 22,
+        "name": "Haiti",
+        "abbr": "HAI"
+    },
+    {
+        "id": 23,
+        "name": "IR Iran",
+        "abbr": "IRN"
+    },
+    {
+        "id": 24,
+        "name": "Iraq",
+        "abbr": "IRQ"
+    },
+    {
+        "id": 25,
+        "name": "Japan",
+        "abbr": "JPN"
+    },
+    {
+        "id": 26,
+        "name": "Jordan",
+        "abbr": "JOR"
+    },
+    {
+        "id": 27,
+        "name": "Korea Republic",
+        "abbr": "KOR"
+    },
+    {
+        "id": 28,
+        "name": "Mexico",
+        "abbr": "MEX"
+    },
+    {
+        "id": 29,
+        "name": "Morocco",
+        "abbr": "MAR"
+    },
+    {
+        "id": 30,
+        "name": "Netherlands",
+        "abbr": "NED"
+    },
+    {
+        "id": 31,
+        "name": "New Zealand",
+        "abbr": "NZL"
+    },
+    {
+        "id": 32,
+        "name": "Norway",
+        "abbr": "NOR"
+    },
+    {
+        "id": 33,
+        "name": "Panama",
+        "abbr": "PAN"
+    },
+    {
+        "id": 34,
+        "name": "Paraguay",
+        "abbr": "PAR"
+    },
+    {
+        "id": 35,
+        "name": "Portugal",
+        "abbr": "POR"
+    },
+    {
+        "id": 36,
+        "name": "Qatar",
+        "abbr": "QAT"
+    },
+    {
+        "id": 37,
+        "name": "Saudi Arabia",
+        "abbr": "KSA"
+    },
+    {
+        "id": 38,
+        "name": "Scotland",
+        "abbr": "SCO"
+    },
+    {
+        "id": 39,
+        "name": "Senegal",
+        "abbr": "SEN"
+    },
+    {
+        "id": 40,
+        "name": "South Africa",
+        "abbr": "RSA"
+    },
+    {
+        "id": 41,
+        "name": "Spain",
+        "abbr": "ESP"
+    },
+    {
+        "id": 42,
+        "name": "Sweden",
+        "abbr": "SWE"
+    },
+    {
+        "id": 43,
+        "name": "Switzerland",
+        "abbr": "SUI"
+    },
+    {
+        "id": 44,
+        "name": "Tunisia",
+        "abbr": "TUN"
+    },
+    {
+        "id": 45,
+        "name": "T\u00fcrkiye",
+        "abbr": "TUR"
+    },
+    {
+        "id": 46,
+        "name": "Uruguay",
+        "abbr": "URU"
+    },
+    {
+        "id": 47,
+        "name": "USA",
+        "abbr": "USA"
+    },
+    {
+        "id": 48,
+        "name": "Uzbekistan",
+        "abbr": "UZB"
+    }
+]
