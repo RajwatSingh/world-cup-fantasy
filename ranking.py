@@ -3,6 +3,12 @@ from collections import defaultdict
 
 import requests
 
+HEADERS = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
+
+SQUADS_URL = "https://play.fifa.com/json/match_predictor/squads.json"
+ROUNDS_URL = "https://play.fifa.com/json/fantasy/rounds.json"
+PLAYERS_URL = "https://play.fifa.com/json/fantasy/players.json"
+
 TEAM_STRENGTH = {
     "France": 10.0,
     "Spain": 9.7,
@@ -59,70 +65,54 @@ fixtures = {}
 teams = {}
 
 
+def fetch_json(url):
+    response = requests.get(url, headers=HEADERS)
+    return response.json()
+
+
+def player_name(player):
+    return f"{player['firstName']} {player['lastName']}"
+
+
 def map_id_squad():
-    squad_url = "https://play.fifa.com/json/match_predictor/squads.json"
-    squads = requests.get(
-        squad_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
-    )
-    data = squads.json()
-
-    for m in data:
-        id = m["id"]
-        country = m["name"]
-
-        teams[id] = country
+    for squad in fetch_json(SQUADS_URL):
+        teams[squad["id"]] = squad["name"]
 
 
 def map_id_match():
-    round_url = "https://play.fifa.com/json/fantasy/rounds.json"
-    rounds = requests.get(
-        round_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
-    )
-    rounds_data = rounds.json()
-    for rnd in rounds_data:
-        for m in rnd.get("tournaments", []):
+    for rnd in fetch_json(ROUNDS_URL):
+        for match in rnd.get("tournaments", []):
             if (
-                m.get("status") == "scheduled"
-                and m.get("homeSquadId")
-                and m.get("awaySquadId")
+                match.get("status") == "scheduled"
+                and match.get("homeSquadId")
+                and match.get("awaySquadId")
             ):
-                fixtures[m["id"]] = [m["homeSquadId"], m["awaySquadId"]]
+                fixtures[match["id"]] = [match["homeSquadId"], match["awaySquadId"]]
 
 
-def map_player_position():
-    players_url = "https://play.fifa.com/json/fantasy/players.json"
-    players = requests.get(
-        players_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
-    )
-    data = players.json()
-
-    for p in data:
-        name = f"{p['firstName']} {p['lastName']}"
-        position = p["position"]
-        full_player_info[name]["position"] = position
+def map_player_position(players):
+    for player in players:
+        full_player_info[player_name(player)]["position"] = player["position"]
 
 
-def map_player_fixture(data):
-    for r in data:
-        p = r["stats"]
-        name = f"{r['firstName']} {r['lastName']}"
-        fixture = p["nextFixtureFromScheduledRound"]
-        team = r["squadId"]
-
-        if team == fixtures[fixture][0]:
-            full_player_info[name]["opponent"] = fixtures[fixture][1]
-        else:
-            full_player_info[name]["opponent"] = fixtures[fixture][0]
+def map_player_fixture(players):
+    for player in players:
+        fixture = player["stats"]["nextFixtureFromScheduledRound"]
+        home, away = fixtures[fixture]
+        opponent = away if player["squadId"] == home else home
+        full_player_info[player_name(player)]["opponent"] = opponent
 
 
-players_url = "https://play.fifa.com/json/fantasy/players.json"
-players = requests.get(
-    players_url, headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
-)
-map_id_match()
-map_id_squad()
-data = players.json()
+def main():
+    map_id_squad()
+    map_id_match()
 
-map_player_fixture(data)
-map_player_position()
-print(json.dumps(full_player_info, indent=4))
+    players = fetch_json(PLAYERS_URL)
+    map_player_fixture(players)
+    map_player_position(players)
+
+    print(json.dumps(full_player_info, indent=4))
+
+
+if __name__ == "__main__":
+    main()
