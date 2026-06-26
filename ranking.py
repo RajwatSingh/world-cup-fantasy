@@ -326,6 +326,7 @@ def export_json(path, position):
     rows.sort(key=lambda r: r["score"], reverse=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False, indent=2)
+    return rows
 
 
 def main():
