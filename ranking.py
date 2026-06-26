@@ -140,7 +140,6 @@ full_player_info = defaultdict(dict)
 fixtures = {}
 teams = {}
 pen_takers = {norm(n) for n in PENALTY_TAKERS}
-player_rank = {}
 
 
 def cached_json(name, fetch):
@@ -273,21 +272,16 @@ def map_player_stats(players):
 
 def rank_players():
     for name, info in full_player_info.items():
-        opponent = info.get("opponent")
-        if opponent is None:
-            continue
+        opponent = info.get("opponent", 0)
 
         opp_strength = TEAM_STRENGTH.get(opponent)
         team_strength = TEAM_STRENGTH.get(info["team"])
-        if opp_strength is None or team_strength is None:
-            continue
-
         score = 0
+        if opp_strength:
+            score += (1 / opp_strength) * 4
 
-        # weaker opponent (lower strength) is a more favourable fixture
-        score += (1 / opp_strength) * 2
-
-        score += team_strength / 10
+        if team_strength:
+            score += team_strength / 5
 
         if info.get("penalty_taker"):
             score += 3
@@ -316,12 +310,22 @@ def rank_players():
         else:
             score += 3 - selected / 100
 
-        if info["minutes_played"] < 100:
+        if info["minutes_played"] < 50:
             score = 0
         else:
             score += info["minutes_played"] / 100
 
-        player_rank[name] = score
+        full_player_info[name]["score"] = score
+
+
+def export_json(path, position):
+    rows = []
+    for name, score in position.items():
+        info = full_player_info[name]
+        rows.append({"name": name, "score": score, **info})
+    rows.sort(key=lambda r: r["score"], reverse=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(rows, f, ensure_ascii=False, indent=2)
 
 
 def main():
@@ -336,17 +340,30 @@ def main():
     map_player_stats(players)
 
     rank_players()
-    final = {}
-    items = list(player_rank.items())
+    items = list(full_player_info.items())
 
     for player, score in items:
-        if score == 0:
-            player_rank.pop(player)
+        if score["score"] == 0:
+            full_player_info.pop(player)
 
-    final = dict(sorted(player_rank.items(), key=lambda item: item[1], reverse=True))
+    forwards, midfielders, defenders, goalkeepers = {}, {}, {}, {}
 
-    print(json.dumps(full_player_info, indent=4, ensure_ascii=False))
-    print(json.dumps(final, indent=4, ensure_ascii=False))
+    for p, s in full_player_info.items():
+        position = full_player_info[p]["position"]
+
+        if position == "FWD":
+            forwards[p] = s
+        elif position == "MID":
+            midfielders[p] = s
+        elif position == "DEF":
+            defenders[p] = s
+        elif position == "GK":
+            goalkeepers[p] = s
+
+    export_json("forwards.json", forwards)
+    export_json("midfielders.json", midfielders)
+    export_json("defenders.json", defenders)
+    export_json("goalkeepers.json", goalkeepers)
 
 
 if __name__ == "__main__":
