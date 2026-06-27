@@ -1,12 +1,12 @@
 [
   {
     "name": "Lionel Messi",
-    "score": 19.76148148148148,
+    "score": 19.76348148148148,
     "opponent": "Jordan",
     "position": "FWD",
     "team": "Argentina",
     "penalty_taker": true,
-    "selected": 34,
+    "selected": 33.8,
     "shots": 8,
     "goals_scored": 5,
     "minutes_played": 170
@@ -25,51 +25,39 @@
   },
   {
     "name": "Kylian Mbappé",
-    "score": 17.450285714285716,
+    "score": 17.451285714285714,
     "opponent": "Norway",
     "position": "FWD",
     "team": "France",
     "penalty_taker": true,
-    "selected": 55.4,
+    "selected": 55.3,
     "shots": 7,
     "goals_scored": 4,
     "minutes_played": 179
   },
   {
     "name": "Erling Haaland",
-    "score": 16.552,
+    "score": 16.553,
     "opponent": "France",
     "position": "FWD",
     "team": "Norway",
     "penalty_taker": true,
-    "selected": 26.8,
+    "selected": 26.7,
     "shots": 7,
     "goals_scored": 4,
     "minutes_played": 180
   },
   {
     "name": "Cody Gakpo",
-    "score": 15.150820512820513,
-    "opponent": "Morocco",
+    "score": 14.77260975609756,
+    "opponent": "Tunisia",
     "position": "FWD",
     "team": "Netherlands",
     "penalty_taker": true,
-    "selected": 12.2,
+    "selected": 12.3,
     "shots": 5,
     "goals_scored": 2,
-    "minutes_played": 258
-  },
-  {
-    "name": "Ayase Ueda",
-    "score": 14.65956043956044,
-    "opponent": "Brazil",
-    "position": "FWD",
-    "team": "Japan",
-    "penalty_taker": true,
-    "selected": 1,
-    "shots": 3,
-    "goals_scored": 2,
-    "minutes_played": 234
+    "minutes_played": 174
   },
   {
     "name": "Cristiano Ronaldo dos Santos Aveiro",
@@ -85,37 +73,39 @@
   },
   {
     "name": "Harry Kane",
-    "score": 14.401470588235295,
+    "score": 14.400470588235294,
     "opponent": "Panama",
     "position": "FWD",
     "team": "England",
     "penalty_taker": true,
-    "selected": 41.5,
+    "selected": 41.6,
     "shots": 4,
     "goals_scored": 2,
     "minutes_played": 180
   },
   {
+    "name": "Ayase Ueda",
+    "score": 14.36,
+    "opponent": "Sweden",
+    "position": "FWD",
+    "team": "Japan",
+    "penalty_taker": true,
+    "selected": 1,
+    "shots": 3,
+    "goals_scored": 2,
+    "minutes_played": 168
+  },
+  {
     "name": "Viktor Gyökeres",
-    "score": 14.2,
+    "score": 13.879710144927536,
+    "opponent": "Japan",
     "position": "FWD",
     "team": "Sweden",
     "penalty_taker": true,
     "selected": 4.4,
     "shots": 5,
     "goals_scored": 1,
-    "minutes_played": 270
-  },
-  {
-    "name": "Kai Havertz",
-    "score": 13.904,
-    "position": "FWD",
-    "team": "Germany",
-    "penalty_taker": true,
-    "selected": 10.6,
-    "shots": 4,
-    "goals_scored": 2,
-    "minutes_played": 235
+    "minutes_played": 180
   },
   {
     "name": "Mikel Oyarzabal",
@@ -130,20 +120,32 @@
     "minutes_played": 135
   },
   {
+    "name": "Kai Havertz",
+    "score": 13.481966101694915,
+    "opponent": "Ecuador",
+    "position": "FWD",
+    "team": "Germany",
+    "penalty_taker": true,
+    "selected": 10.6,
+    "shots": 3,
+    "goals_scored": 2,
+    "minutes_played": 175
+  },
+  {
     "name": "Enner Valencia",
-    "score": 13.49,
+    "score": 12.831927710843374,
+    "opponent": "Germany",
     "position": "FWD",
     "team": "Ecuador",
     "penalty_taker": true,
-    "selected": 0.6,
-    "shots": 6,
+    "selected": 0.7,
+    "shots": 5,
     "goals_scored": 0,
-    "minutes_played": 231
+    "minutes_played": 167
   },
   {
     "name": "Matheus Santos Carneiro da Cunha",
-    "score": 13.089710144927535,
-    "opponent": "Japan",
+    "score": 12.51,
     "position": "FWD",
     "team": "Brazil",
     "penalty_taker": false,
@@ -164,16 +166,16 @@
     "minutes_played": 156
   },
   {
-    "name": "Brian Brobbey",
-    "score": 12.232820512820513,
-    "opponent": "Morocco",
+    "name": "Deniz Undav",
+    "score": 11.897966101694916,
+    "opponent": "Ecuador",
     "position": "FWD",
-    "team": "Netherlands",
+    "team": "Germany",
     "penalty_taker": false,
-    "selected": 2.1,
-    "shots": 3,
+    "selected": 3.4,
+    "shots": 4,
     "goals_scored": 3,
-    "minutes_played": 154
+    "minutes_played": 56
   },
   {
     "name": "Julián Quiñones",
@@ -235,39 +237,6 @@
     "minutes_played": 180
   },
   {
-    "name": "Deniz Undav",
-    "score": 11.52,
-    "position": "FWD",
-    "team": "Germany",
-    "penalty_taker": false,
-    "selected": 3.4,
-    "shots": 4,
-    "goals_scored": 3,
-    "minutes_played": 86
-  },
-  {
-    "name": "Gonzalo Plata",
-    "score": 11.379999999999999,
-    "position": "FWD",
-    "team": "Ecuador",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 5,
-    "goals_scored": 1,
-    "minutes_played": 270
-  },
-  {
-    "name": "Alexander Isak",
-    "score": 11.19,
-    "position": "FWD",
-    "team": "Sweden",
-    "penalty_taker": false,
-    "selected": 3.8,
-    "shots": 5,
-    "goals_scored": 1,
-    "minutes_played": 269
-  },
-  {
     "name": "Breel Embolo",
     "score": 10.5,
     "position": "FWD",
@@ -277,6 +246,18 @@
     "shots": 3,
     "goals_scored": 1,
     "minutes_played": 264
+  },
+  {
+    "name": "Brian Brobbey",
+    "score": 10.425609756097561,
+    "opponent": "Tunisia",
+    "position": "FWD",
+    "team": "Netherlands",
+    "penalty_taker": false,
+    "selected": 2.1,
+    "shots": 2,
+    "goals_scored": 2,
+    "minutes_played": 77
   },
   {
     "name": "Mehdi Taremi",
@@ -303,15 +284,28 @@
     "minutes_played": 161
   },
   {
-    "name": "Anthony Elanga",
-    "score": 9.76,
+    "name": "Alexander Isak",
+    "score": 9.869710144927534,
+    "opponent": "Japan",
     "position": "FWD",
     "team": "Sweden",
     "penalty_taker": false,
-    "selected": 0.3,
+    "selected": 3.8,
     "shots": 3,
-    "goals_scored": 2,
-    "minutes_played": 126
+    "goals_scored": 1,
+    "minutes_played": 179
+  },
+  {
+    "name": "Gonzalo Plata",
+    "score": 9.461927710843375,
+    "opponent": "Germany",
+    "position": "FWD",
+    "team": "Ecuador",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 4,
+    "goals_scored": 0,
+    "minutes_played": 180
   },
   {
     "name": "Ali Iyad Ali Olwan",
@@ -362,28 +356,28 @@
     "minutes_played": 120
   },
   {
+    "name": "Amad Diallo",
+    "score": 9.09,
+    "opponent": "Curaçao",
+    "position": "FWD",
+    "team": "Côte d'Ivoire",
+    "penalty_taker": false,
+    "selected": 1.7,
+    "shots": 2,
+    "goals_scored": 1,
+    "minutes_played": 109
+  },
+  {
     "name": "Nestory Irankunda",
     "score": 9.072380952380952,
     "opponent": "Paraguay",
     "position": "FWD",
     "team": "Australia",
     "penalty_taker": false,
-    "selected": 0.5,
+    "selected": 0.6,
     "shots": 2,
     "goals_scored": 1,
     "minutes_played": 106
-  },
-  {
-    "name": "Donyell Malen",
-    "score": 9.062820512820512,
-    "opponent": "Morocco",
-    "position": "FWD",
-    "team": "Netherlands",
-    "penalty_taker": false,
-    "selected": 0.9,
-    "shots": 2,
-    "goals_scored": 0,
-    "minutes_played": 187
   },
   {
     "name": "Federico Viñas",
@@ -421,6 +415,18 @@
     "minutes_played": 146
   },
   {
+    "name": "Donyell Malen",
+    "score": 8.805609756097562,
+    "opponent": "Tunisia",
+    "position": "FWD",
+    "team": "Netherlands",
+    "penalty_taker": false,
+    "selected": 0.9,
+    "shots": 2,
+    "goals_scored": 0,
+    "minutes_played": 115
+  },
+  {
     "name": "Tajon Buchanan",
     "score": 8.78111111111111,
     "opponent": "South Africa",
@@ -439,7 +445,7 @@
     "position": "FWD",
     "team": "Spain",
     "penalty_taker": false,
-    "selected": 2.2,
+    "selected": 2.3,
     "shots": 2,
     "goals_scored": 0,
     "minutes_played": 126
@@ -505,17 +511,6 @@
     "minutes_played": 96
   },
   {
-    "name": "Nicolas Pépé",
-    "score": 8.49,
-    "position": "FWD",
-    "team": "Côte d'Ivoire",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 2,
-    "goals_scored": 2,
-    "minutes_played": 149
-  },
-  {
     "name": "Ivan Perisic",
     "score": 8.365641025641025,
     "opponent": "Ghana",
@@ -573,18 +568,6 @@
     "shots": 3,
     "goals_scored": 0,
     "minutes_played": 127
-  },
-  {
-    "name": "Rayan Vitor Simplício Rocha",
-    "score": 8.219710144927536,
-    "opponent": "Japan",
-    "position": "FWD",
-    "team": "Brazil",
-    "penalty_taker": false,
-    "selected": 0.2,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 132
   },
   {
     "name": "Edmílson Junior Paulo da Silva",
@@ -645,27 +628,16 @@
     "minutes_played": 180
   },
   {
-    "name": "Ayoub El Kaabi",
-    "score": 7.736190476190477,
-    "opponent": "Netherlands",
+    "name": "Yan Diomande",
+    "score": 7.75,
+    "opponent": "Curaçao",
     "position": "FWD",
-    "team": "Morocco",
+    "team": "Côte d'Ivoire",
     "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 2,
+    "selected": 2.6,
+    "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 70
-  },
-  {
-    "name": "Hazem Mastouri",
-    "score": 7.71,
-    "position": "FWD",
-    "team": "Tunisia",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 2,
-    "goals_scored": 1,
-    "minutes_played": 89
+    "minutes_played": 175
   },
   {
     "name": "Mohamed Touré",
@@ -678,17 +650,6 @@
     "shots": 1,
     "goals_scored": 0,
     "minutes_played": 119
-  },
-  {
-    "name": "Alexander Bernhardsson",
-    "score": 7.6899999999999995,
-    "position": "FWD",
-    "team": "Sweden",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 219
   },
   {
     "name": "Oswin Appollis",
@@ -726,27 +687,27 @@
     "minutes_played": 266
   },
   {
-    "name": "Amad Diallo",
-    "score": 7.54,
-    "position": "FWD",
-    "team": "Côte d'Ivoire",
-    "penalty_taker": false,
-    "selected": 1.7,
-    "shots": 2,
-    "goals_scored": 1,
-    "minutes_played": 154
-  },
-  {
-    "name": "Igor Thiago Nascimento Rodrigues",
-    "score": 7.519710144927536,
-    "opponent": "Japan",
+    "name": "Rayan Vitor Simplício Rocha",
+    "score": 7.640000000000001,
     "position": "FWD",
     "team": "Brazil",
     "penalty_taker": false,
-    "selected": 1.5,
+    "selected": 0.2,
     "shots": 1,
     "goals_scored": 0,
-    "minutes_played": 62
+    "minutes_played": 132
+  },
+  {
+    "name": "Ange-Yoan Bonny",
+    "score": 7.59,
+    "opponent": "Curaçao",
+    "position": "FWD",
+    "team": "Côte d'Ivoire",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 109
   },
   {
     "name": "João Félix Sequeira",
@@ -762,12 +723,12 @@
   },
   {
     "name": "Julián Alvarez",
-    "score": 7.414481481481482,
+    "score": 7.413481481481482,
     "opponent": "Jordan",
     "position": "FWD",
     "team": "Argentina",
     "penalty_taker": false,
-    "selected": 9.7,
+    "selected": 9.8,
     "shots": 1,
     "goals_scored": 0,
     "minutes_played": 61
@@ -828,6 +789,17 @@
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 138
+  },
+  {
+    "name": "Ayoub El Kaabi",
+    "score": 7.260000000000001,
+    "position": "FWD",
+    "team": "Morocco",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 2,
+    "goals_scored": 0,
+    "minutes_played": 70
   },
   {
     "name": "Ruben Providence",
@@ -900,6 +872,18 @@
     "minutes_played": 157
   },
   {
+    "name": "Elye Wahi",
+    "score": 7.0600000000000005,
+    "opponent": "Curaçao",
+    "position": "FWD",
+    "team": "Côte d'Ivoire",
+    "penalty_taker": false,
+    "selected": 0,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 56
+  },
+  {
     "name": "Liam Millar",
     "score": 7.021111111111111,
     "opponent": "South Africa",
@@ -910,6 +894,18 @@
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 93
+  },
+  {
+    "name": "Alexander Bernhardsson",
+    "score": 7.0197101449275365,
+    "opponent": "Japan",
+    "position": "FWD",
+    "team": "Sweden",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 144
   },
   {
     "name": "Hassan Khalid Hassan Al Haydos",
@@ -944,6 +940,17 @@
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 180
+  },
+  {
+    "name": "Igor Thiago Nascimento Rodrigues",
+    "score": 6.94,
+    "position": "FWD",
+    "team": "Brazil",
+    "penalty_taker": false,
+    "selected": 1.6,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 62
   },
   {
     "name": "Ché Adams",
@@ -993,6 +1000,18 @@
     "minutes_played": 154
   },
   {
+    "name": "Nicolas Pépé",
+    "score": 6.82,
+    "opponent": "Curaçao",
+    "position": "FWD",
+    "team": "Côte d'Ivoire",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 82
+  },
+  {
     "name": "Kerem Aktürkoglu",
     "score": 6.819999999999999,
     "opponent": "USA",
@@ -1005,15 +1024,16 @@
     "minutes_played": 130
   },
   {
-    "name": "Jürgen Locadia",
-    "score": 6.7700000000000005,
+    "name": "Benjamin Nygren",
+    "score": 6.789710144927536,
+    "opponent": "Japan",
     "position": "FWD",
-    "team": "Curaçao",
+    "team": "Sweden",
     "penalty_taker": false,
     "selected": 0.1,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 237
+    "minutes_played": 121
   },
   {
     "name": "Cédric Bakambu",
@@ -1040,16 +1060,16 @@
     "minutes_played": 74
   },
   {
-    "name": "Memphis Depay",
-    "score": 6.702820512820512,
-    "opponent": "Morocco",
+    "name": "Kevin Rodríguez",
+    "score": 6.741927710843374,
+    "opponent": "Germany",
     "position": "FWD",
-    "team": "Netherlands",
+    "team": "Ecuador",
     "penalty_taker": false,
-    "selected": 0.8,
-    "shots": 0,
+    "selected": 0.2,
+    "shots": 1,
     "goals_scored": 0,
-    "minutes_played": 51
+    "minutes_played": 58
   },
   {
     "name": "Jovo Lukic",
@@ -1074,15 +1094,16 @@
     "minutes_played": 172
   },
   {
-    "name": "Kevin Rodríguez",
-    "score": 6.52,
+    "name": "Bazoumana Touré",
+    "score": 6.5600000000000005,
+    "opponent": "Curaçao",
     "position": "FWD",
-    "team": "Ecuador",
+    "team": "Côte d'Ivoire",
     "penalty_taker": false,
-    "selected": 0.2,
-    "shots": 1,
+    "selected": 0.1,
+    "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 84
+    "minutes_played": 56
   },
   {
     "name": "Odeh Burhan Shehadeh Fakhoury",
@@ -1121,15 +1142,16 @@
     "minutes_played": 123
   },
   {
-    "name": "Yan Diomande",
-    "score": 6.42,
+    "name": "Elias Saad",
+    "score": 6.4661904761904765,
+    "opponent": "Netherlands",
     "position": "FWD",
-    "team": "Côte d'Ivoire",
+    "team": "Tunisia",
     "penalty_taker": false,
-    "selected": 2.6,
+    "selected": 0,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 242
+    "minutes_played": 117
   },
   {
     "name": "Esmir Bajraktarevic",
@@ -1201,26 +1223,16 @@
     "minutes_played": 181
   },
   {
-    "name": "Ange-Yoan Bonny",
-    "score": 6.26,
+    "name": "Alan Minda",
+    "score": 6.221927710843374,
+    "opponent": "Germany",
     "position": "FWD",
-    "team": "Côte d'Ivoire",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 176
-  },
-  {
-    "name": "Benjamin Nygren",
-    "score": 6.23,
-    "position": "FWD",
-    "team": "Sweden",
+    "team": "Ecuador",
     "penalty_taker": false,
     "selected": 0.1,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 123
+    "minutes_played": 56
   },
   {
     "name": "José Fajardo",
@@ -1282,6 +1294,18 @@
     "minutes_played": 149
   },
   {
+    "name": "Sebastian Tounekti",
+    "score": 6.116190476190477,
+    "opponent": "Netherlands",
+    "position": "FWD",
+    "team": "Tunisia",
+    "penalty_taker": false,
+    "selected": 0,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 82
+  },
+  {
     "name": "Lyle Foster",
     "score": 6.096326530612245,
     "opponent": "Canada",
@@ -1292,40 +1316,6 @@
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 56
-  },
-  {
-    "name": "Ismaël Gharbi",
-    "score": 6.09,
-    "position": "FWD",
-    "team": "Tunisia",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 127
-  },
-  {
-    "name": "Elias Saad",
-    "score": 5.99,
-    "position": "FWD",
-    "team": "Tunisia",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 117
-  },
-  {
-    "name": "Baris Alper Yilmaz",
-    "score": 5.9799999999999995,
-    "opponent": "USA",
-    "position": "FWD",
-    "team": "Türkiye",
-    "penalty_taker": false,
-    "selected": 0.3,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 96
   },
   {
     "name": "Ali Jasim Elaibi Al Tameemi",
@@ -1352,6 +1342,18 @@
     "minutes_played": 66
   },
   {
+    "name": "Baris Alper Yilmaz",
+    "score": 5.92,
+    "opponent": "USA",
+    "position": "FWD",
+    "team": "Türkiye",
+    "penalty_taker": false,
+    "selected": 0.3,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 90
+  },
+  {
     "name": "Guillermo Martínez",
     "score": 5.91,
     "position": "FWD",
@@ -1373,6 +1375,18 @@
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 88
+  },
+  {
+    "name": "Jürgen Locadia",
+    "score": 5.880000000000001,
+    "opponent": "Côte d'Ivoire",
+    "position": "FWD",
+    "team": "Curaçao",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 148
   },
   {
     "name": "Yusuf Abdurisag Yusuf",
@@ -1410,27 +1424,16 @@
     "minutes_played": 56
   },
   {
-    "name": "Elye Wahi",
-    "score": 5.79,
+    "name": "Ismaël Gharbi",
+    "score": 5.816190476190476,
+    "opponent": "Netherlands",
     "position": "FWD",
-    "team": "Côte d'Ivoire",
+    "team": "Tunisia",
     "penalty_taker": false,
     "selected": 0,
-    "shots": 2,
-    "goals_scored": 0,
-    "minutes_played": 79
-  },
-  {
-    "name": "Ricardo Pepi",
-    "score": 5.7643137254901955,
-    "opponent": "Türkiye",
-    "position": "FWD",
-    "team": "USA",
-    "penalty_taker": false,
-    "selected": 0.1,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 98
+    "minutes_played": 52
   },
   {
     "name": "Jovane Eduardo Borges Cabral",
@@ -1469,17 +1472,6 @@
     "minutes_played": 61
   },
   {
-    "name": "Alan Minda",
-    "score": 5.74,
-    "position": "FWD",
-    "team": "Ecuador",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 56
-  },
-  {
     "name": "Garry Mendes Rodrigues",
     "score": 5.722857142857142,
     "opponent": "Saudi Arabia",
@@ -1492,15 +1484,16 @@
     "minutes_played": 58
   },
   {
-    "name": "Sebastian Tounekti",
-    "score": 5.65,
+    "name": "Ricardo Pepi",
+    "score": 5.704313725490196,
+    "opponent": "Türkiye",
     "position": "FWD",
-    "team": "Tunisia",
+    "team": "USA",
     "penalty_taker": false,
-    "selected": 0,
+    "selected": 0.1,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 83
+    "minutes_played": 92
   },
   {
     "name": "Lenny Joseph",
@@ -1548,17 +1541,6 @@
     "minutes_played": 128
   },
   {
-    "name": "Jeremy Antonisse",
-    "score": 5.140000000000001,
-    "position": "FWD",
-    "team": "Curaçao",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 74
-  },
-  {
     "name": "Hee-Chan Hwang",
     "score": 5.0600000000000005,
     "position": "FWD",
@@ -1568,16 +1550,5 @@
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 106
-  },
-  {
-    "name": "Bazoumana Touré",
-    "score": 4.79,
-    "position": "FWD",
-    "team": "Côte d'Ivoire",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 79
   }
 ]

@@ -1,12 +1,11 @@
 [
   {
     "name": "Vinícius José Paixão de Oliveira Júnior",
-    "score": 19.472710144927536,
-    "opponent": "Japan",
+    "score": 18.897,
     "position": "MID",
     "team": "Brazil",
     "penalty_taker": true,
-    "selected": 28.7,
+    "selected": 28.3,
     "shots": 8,
     "goals_scored": 4,
     "minutes_played": 261,
@@ -27,72 +26,45 @@
     "tackles": 3
   },
   {
+    "name": "Franck Kessie",
+    "score": 12.8,
+    "opponent": "Curaçao",
+    "position": "MID",
+    "team": "Côte d'Ivoire",
+    "penalty_taker": true,
+    "selected": 1.4,
+    "shots": 1,
+    "goals_scored": 1,
+    "minutes_played": 180,
+    "chances": 0,
+    "tackles": 2
+  },
+  {
     "name": "Felix Nmecha",
-    "score": 12.853,
+    "score": 12.641966101694916,
+    "opponent": "Ecuador",
     "position": "MID",
     "team": "Germany",
     "penalty_taker": false,
-    "selected": 7.7,
+    "selected": 7.6,
     "shots": 3,
     "goals_scored": 1,
-    "minutes_played": 227,
+    "minutes_played": 163,
     "chances": 2,
-    "tackles": 12
+    "tackles": 11
   },
   {
     "name": "Ismael Saibari",
-    "score": 12.792190476190477,
-    "opponent": "Netherlands",
+    "score": 12.317,
     "position": "MID",
     "team": "Morocco",
     "penalty_taker": false,
-    "selected": 17.4,
+    "selected": 17.3,
     "shots": 3,
     "goals_scored": 3,
     "minutes_played": 243,
     "chances": 1,
     "tackles": 3
-  },
-  {
-    "name": "Daichi Kamada",
-    "score": 12.59956043956044,
-    "opponent": "Brazil",
-    "position": "MID",
-    "team": "Japan",
-    "penalty_taker": false,
-    "selected": 4.9,
-    "shots": 2,
-    "goals_scored": 2,
-    "minutes_played": 253,
-    "chances": 1,
-    "tackles": 4
-  },
-  {
-    "name": "Yasin Ayari",
-    "score": 12.59,
-    "position": "MID",
-    "team": "Sweden",
-    "penalty_taker": false,
-    "selected": 2.3,
-    "shots": 3,
-    "goals_scored": 2,
-    "minutes_played": 259,
-    "chances": 1,
-    "tackles": 5
-  },
-  {
-    "name": "Bilal El Khannouss",
-    "score": 12.326190476190476,
-    "opponent": "Netherlands",
-    "position": "MID",
-    "team": "Morocco",
-    "penalty_taker": false,
-    "selected": 0.2,
-    "shots": 3,
-    "goals_scored": 0,
-    "minutes_played": 254,
-    "chances": 1,
-    "tackles": 8
   },
   {
     "name": "Kevin De Bruyne",
@@ -122,19 +94,6 @@
     "tackles": 3
   },
   {
-    "name": "Pedro Vite",
-    "score": 12.129999999999999,
-    "position": "MID",
-    "team": "Ecuador",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 270,
-    "chances": 1,
-    "tackles": 14
-  },
-  {
     "name": "Hakan Çalhanoglu",
     "score": 12.07,
     "opponent": "USA",
@@ -147,20 +106,6 @@
     "minutes_played": 180,
     "chances": 1,
     "tackles": 4
-  },
-  {
-    "name": "Neil El Aynaoui",
-    "score": 11.916190476190476,
-    "opponent": "Netherlands",
-    "position": "MID",
-    "team": "Morocco",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 263,
-    "chances": 0,
-    "tackles": 11
   },
   {
     "name": "Federico Valverde",
@@ -177,6 +122,19 @@
     "tackles": 1
   },
   {
+    "name": "Bilal El Khannouss",
+    "score": 11.850000000000001,
+    "position": "MID",
+    "team": "Morocco",
+    "penalty_taker": false,
+    "selected": 0.2,
+    "shots": 3,
+    "goals_scored": 0,
+    "minutes_played": 254,
+    "chances": 1,
+    "tackles": 8
+  },
+  {
     "name": "Sadio Mané",
     "score": 11.832,
     "opponent": "Iraq",
@@ -191,17 +149,32 @@
     "tackles": 3
   },
   {
-    "name": "Franck Kessie",
-    "score": 11.82,
+    "name": "Daichi Kamada",
+    "score": 11.809999999999999,
+    "opponent": "Sweden",
     "position": "MID",
-    "team": "Côte d'Ivoire",
-    "penalty_taker": true,
-    "selected": 1.4,
-    "shots": 1,
-    "goals_scored": 1,
-    "minutes_played": 257,
+    "team": "Japan",
+    "penalty_taker": false,
+    "selected": 4.9,
+    "shots": 2,
+    "goals_scored": 2,
+    "minutes_played": 163,
     "chances": 0,
-    "tackles": 3
+    "tackles": 4
+  },
+  {
+    "name": "Yasin Ayari",
+    "score": 11.769710144927535,
+    "opponent": "Japan",
+    "position": "MID",
+    "team": "Sweden",
+    "penalty_taker": false,
+    "selected": 2.3,
+    "shots": 3,
+    "goals_scored": 2,
+    "minutes_played": 169,
+    "chances": 0,
+    "tackles": 4
   },
   {
     "name": "Luka Modric",
@@ -258,6 +231,19 @@
     "tackles": 1
   },
   {
+    "name": "Neil El Aynaoui",
+    "score": 11.440000000000001,
+    "position": "MID",
+    "team": "Morocco",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 263,
+    "chances": 0,
+    "tackles": 11
+  },
+  {
     "name": "James Rodríguez",
     "score": 11.434444444444445,
     "opponent": "Portugal",
@@ -270,20 +256,6 @@
     "minutes_played": 130,
     "chances": 1,
     "tackles": 0
-  },
-  {
-    "name": "Bruno Guimarães Rodriguez Moura",
-    "score": 11.409710144927535,
-    "opponent": "Japan",
-    "position": "MID",
-    "team": "Brazil",
-    "penalty_taker": false,
-    "selected": 2.8,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 251,
-    "chances": 2,
-    "tackles": 8
   },
   {
     "name": "Mohamed Salah Hamed Mahrous Ghaly",
@@ -300,33 +272,6 @@
     "tackles": 1
   },
   {
-    "name": "Leroy Sané",
-    "score": 11.31,
-    "position": "MID",
-    "team": "Germany",
-    "penalty_taker": false,
-    "selected": 1.2,
-    "shots": 2,
-    "goals_scored": 1,
-    "minutes_played": 240,
-    "chances": 0,
-    "tackles": 5
-  },
-  {
-    "name": "Keito Nakamura",
-    "score": 11.25956043956044,
-    "opponent": "Brazil",
-    "position": "MID",
-    "team": "Japan",
-    "penalty_taker": false,
-    "selected": 2.3,
-    "shots": 2,
-    "goals_scored": 1,
-    "minutes_played": 244,
-    "chances": 1,
-    "tackles": 3
-  },
-  {
     "name": "Alexis Mac Allister",
     "score": 11.201481481481482,
     "opponent": "Jordan",
@@ -341,34 +286,6 @@
     "tackles": 5
   },
   {
-    "name": "Carlos Henrique Casimiro",
-    "score": 11.149710144927536,
-    "opponent": "Japan",
-    "position": "MID",
-    "team": "Brazil",
-    "penalty_taker": false,
-    "selected": 1.7,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 200,
-    "chances": 0,
-    "tackles": 11
-  },
-  {
-    "name": "Brahim Díaz",
-    "score": 11.147190476190476,
-    "opponent": "Netherlands",
-    "position": "MID",
-    "team": "Morocco",
-    "penalty_taker": true,
-    "selected": 7.9,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 219,
-    "chances": 2,
-    "tackles": 0
-  },
-  {
     "name": "Lewis Ferguson",
     "score": 11.14,
     "position": "MID",
@@ -380,20 +297,6 @@
     "minutes_played": 270,
     "chances": 0,
     "tackles": 12
-  },
-  {
-    "name": "Lucas Tolentino Coelho de Lima",
-    "score": 11.059710144927536,
-    "opponent": "Japan",
-    "position": "MID",
-    "team": "Brazil",
-    "penalty_taker": false,
-    "selected": 0.9,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 191,
-    "chances": 3,
-    "tackles": 6
   },
   {
     "name": "Elijah Just",
@@ -410,17 +313,30 @@
     "tackles": 3
   },
   {
-    "name": "Moisés Caicedo",
-    "score": 10.879999999999999,
+    "name": "Bruno Guimarães Rodriguez Moura",
+    "score": 10.83,
     "position": "MID",
-    "team": "Ecuador",
+    "team": "Brazil",
     "penalty_taker": false,
-    "selected": 1.2,
-    "shots": 1,
+    "selected": 2.7,
+    "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 270,
+    "minutes_played": 251,
     "chances": 2,
     "tackles": 8
+  },
+  {
+    "name": "Brahim Díaz",
+    "score": 10.671,
+    "position": "MID",
+    "team": "Morocco",
+    "penalty_taker": true,
+    "selected": 7.9,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 219,
+    "chances": 2,
+    "tackles": 0
   },
   {
     "name": "Jude Bellingham",
@@ -465,18 +381,30 @@
     "tackles": 2
   },
   {
-    "name": "Raphael Dias Belloli",
-    "score": 10.587710144927536,
-    "opponent": "Japan",
+    "name": "Carlos Henrique Casimiro",
+    "score": 10.57,
     "position": "MID",
     "team": "Brazil",
-    "penalty_taker": true,
-    "selected": 11.2,
-    "shots": 2,
+    "penalty_taker": false,
+    "selected": 1.7,
+    "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 130,
+    "minutes_played": 200,
     "chances": 0,
-    "tackles": 0
+    "tackles": 11
+  },
+  {
+    "name": "Lucas Tolentino Coelho de Lima",
+    "score": 10.48,
+    "position": "MID",
+    "team": "Brazil",
+    "penalty_taker": false,
+    "selected": 0.9,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 191,
+    "chances": 3,
+    "tackles": 6
   },
   {
     "name": "Michal Sadílek",
@@ -504,6 +432,20 @@
     "minutes_played": 180,
     "chances": 0,
     "tackles": 5
+  },
+  {
+    "name": "Keito Nakamura",
+    "score": 10.37,
+    "opponent": "Sweden",
+    "position": "MID",
+    "team": "Japan",
+    "penalty_taker": false,
+    "selected": 2.3,
+    "shots": 1,
+    "goals_scored": 1,
+    "minutes_played": 169,
+    "chances": 1,
+    "tackles": 3
   },
   {
     "name": "Danley Jean Jacques",
@@ -545,20 +487,6 @@
     "minutes_played": 164,
     "chances": 1,
     "tackles": 5
-  },
-  {
-    "name": "Frenkie de Jong",
-    "score": 10.152820512820512,
-    "opponent": "Morocco",
-    "position": "MID",
-    "team": "Netherlands",
-    "penalty_taker": false,
-    "selected": 1.7,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 221,
-    "chances": 0,
-    "tackles": 7
   },
   {
     "name": "Krépin Diatta",
@@ -645,31 +573,17 @@
     "tackles": 3
   },
   {
-    "name": "Ryan Gravenberch",
-    "score": 10.052820512820512,
-    "opponent": "Morocco",
+    "name": "Raphael Dias Belloli",
+    "score": 10.008000000000001,
     "position": "MID",
-    "team": "Netherlands",
-    "penalty_taker": false,
-    "selected": 2.4,
-    "shots": 0,
+    "team": "Brazil",
+    "penalty_taker": true,
+    "selected": 11.2,
+    "shots": 2,
     "goals_scored": 0,
-    "minutes_played": 261,
-    "chances": 1,
-    "tackles": 4
-  },
-  {
-    "name": "Hannibal Mejbri",
-    "score": 10.02,
-    "position": "MID",
-    "team": "Tunisia",
-    "penalty_taker": false,
-    "selected": 0.2,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 270,
-    "chances": 1,
-    "tackles": 7
+    "minutes_played": 130,
+    "chances": 0,
+    "tackles": 0
   },
   {
     "name": "Nizar Mahmoud Ahmed Al Rashdan",
@@ -686,45 +600,18 @@
     "tackles": 7
   },
   {
-    "name": "Jamal Musiala",
-    "score": 9.947000000000001,
-    "position": "MID",
-    "team": "Germany",
-    "penalty_taker": false,
-    "selected": 10.3,
-    "shots": 1,
-    "goals_scored": 1,
-    "minutes_played": 214,
-    "chances": 0,
-    "tackles": 7
-  },
-  {
     "name": "Crysencio Summerville",
-    "score": 9.885820512820512,
-    "opponent": "Morocco",
+    "score": 9.918609756097561,
+    "opponent": "Tunisia",
     "position": "MID",
     "team": "Netherlands",
     "penalty_taker": false,
     "selected": 13.7,
     "shots": 2,
     "goals_scored": 2,
-    "minutes_played": 133,
+    "minutes_played": 115,
     "chances": 0,
-    "tackles": 2
-  },
-  {
-    "name": "Daizen Maeda",
-    "score": 9.879560439560441,
-    "opponent": "Brazil",
-    "position": "MID",
-    "team": "Japan",
-    "penalty_taker": false,
-    "selected": 1,
-    "shots": 1,
-    "goals_scored": 1,
-    "minutes_played": 156,
-    "chances": 0,
-    "tackles": 4
+    "tackles": 1
   },
   {
     "name": "Connor Metcalfe",
@@ -779,6 +666,20 @@
     "shots": 1,
     "goals_scored": 0,
     "minutes_played": 214,
+    "chances": 0,
+    "tackles": 6
+  },
+  {
+    "name": "Frenkie de Jong",
+    "score": 9.645609756097562,
+    "opponent": "Tunisia",
+    "position": "MID",
+    "team": "Netherlands",
+    "penalty_taker": false,
+    "selected": 1.7,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 149,
     "chances": 0,
     "tackles": 6
   },
@@ -851,19 +752,6 @@
     "tackles": 2
   },
   {
-    "name": "John Yeboah",
-    "score": 9.54,
-    "position": "MID",
-    "team": "Ecuador",
-    "penalty_taker": false,
-    "selected": 0.2,
-    "shots": 2,
-    "goals_scored": 0,
-    "minutes_played": 236,
-    "chances": 2,
-    "tackles": 2
-  },
-  {
     "name": "Luis Díaz",
     "score": 9.531444444444444,
     "opponent": "Portugal",
@@ -878,13 +766,27 @@
     "tackles": 1
   },
   {
+    "name": "Pedro Vite",
+    "score": 9.461927710843375,
+    "opponent": "Germany",
+    "position": "MID",
+    "team": "Ecuador",
+    "penalty_taker": false,
+    "selected": 0,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 180,
+    "chances": 1,
+    "tackles": 5
+  },
+  {
     "name": "Michael Olise",
-    "score": 9.459285714285715,
+    "score": 9.460285714285714,
     "opponent": "Norway",
     "position": "MID",
     "team": "France",
     "penalty_taker": false,
-    "selected": 33.5,
+    "selected": 33.4,
     "shots": 2,
     "goals_scored": 0,
     "minutes_played": 158,
@@ -906,32 +808,18 @@
     "tackles": 4
   },
   {
-    "name": "Junya Ito",
-    "score": 9.439560439560442,
-    "opponent": "Brazil",
+    "name": "Ryan Gravenberch",
+    "score": 9.365609756097562,
+    "opponent": "Tunisia",
     "position": "MID",
-    "team": "Japan",
+    "team": "Netherlands",
     "penalty_taker": false,
-    "selected": 1.6,
-    "shots": 1,
-    "goals_scored": 1,
-    "minutes_played": 137,
-    "chances": 0,
-    "tackles": 3
-  },
-  {
-    "name": "Ao Tanaka",
-    "score": 9.36956043956044,
-    "opponent": "Brazil",
-    "position": "MID",
-    "team": "Japan",
-    "penalty_taker": false,
-    "selected": 1,
+    "selected": 2.4,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 180,
-    "chances": 0,
-    "tackles": 7
+    "minutes_played": 171,
+    "chances": 1,
+    "tackles": 3
   },
   {
     "name": "Teboho Mokoena",
@@ -962,17 +850,18 @@
     "tackles": 6
   },
   {
-    "name": "Florian Wirtz",
-    "score": 9.306,
+    "name": "Junya Ito",
+    "score": 9.32,
+    "opponent": "Sweden",
     "position": "MID",
-    "team": "Germany",
+    "team": "Japan",
     "penalty_taker": false,
-    "selected": 13.4,
+    "selected": 1.6,
     "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 253,
-    "chances": 2,
-    "tackles": 5
+    "goals_scored": 1,
+    "minutes_played": 114,
+    "chances": 0,
+    "tackles": 2
   },
   {
     "name": "Remo Freuler",
@@ -1016,19 +905,6 @@
     "tackles": 4
   },
   {
-    "name": "Alan Franco",
-    "score": 9.27,
-    "position": "MID",
-    "team": "Ecuador",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 209,
-    "chances": 0,
-    "tackles": 8
-  },
-  {
     "name": "Nicolas Raskin",
     "score": 9.259130434782609,
     "opponent": "New Zealand",
@@ -1043,18 +919,32 @@
     "tackles": 3
   },
   {
-    "name": "Andrés Cubas",
-    "score": 9.224716981132076,
-    "opponent": "Australia",
+    "name": "Jamal Musiala",
+    "score": 9.224966101694916,
+    "opponent": "Ecuador",
     "position": "MID",
-    "team": "Paraguay",
+    "team": "Germany",
     "penalty_taker": false,
-    "selected": 0,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 188,
+    "selected": 10.3,
+    "shots": 1,
+    "goals_scored": 1,
+    "minutes_played": 124,
     "chances": 0,
-    "tackles": 7
+    "tackles": 5
+  },
+  {
+    "name": "Moisés Caicedo",
+    "score": 9.211927710843375,
+    "opponent": "Germany",
+    "position": "MID",
+    "team": "Ecuador",
+    "penalty_taker": false,
+    "selected": 1.2,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 180,
+    "chances": 1,
+    "tackles": 4
   },
   {
     "name": "João Pedro Gonçalves Neves",
@@ -1071,32 +961,18 @@
     "tackles": 3
   },
   {
-    "name": "Tijjani Reijnders",
-    "score": 9.202820512820512,
-    "opponent": "Morocco",
+    "name": "John Yeboah",
+    "score": 9.171927710843374,
+    "opponent": "Germany",
     "position": "MID",
-    "team": "Netherlands",
+    "team": "Ecuador",
     "penalty_taker": false,
-    "selected": 1.2,
+    "selected": 0.2,
     "shots": 2,
     "goals_scored": 0,
-    "minutes_played": 201,
-    "chances": 0,
-    "tackles": 0
-  },
-  {
-    "name": "Arda Güler",
-    "score": 9.129999999999999,
-    "opponent": "USA",
-    "position": "MID",
-    "team": "Türkiye",
-    "penalty_taker": false,
-    "selected": 4.8,
-    "shots": 3,
-    "goals_scored": 0,
-    "minutes_played": 186,
-    "chances": 0,
-    "tackles": 3
+    "minutes_played": 151,
+    "chances": 2,
+    "tackles": 2
   },
   {
     "name": "Idrissa Gueye",
@@ -1127,18 +1003,18 @@
     "tackles": 2
   },
   {
-    "name": "Ayyoub Bouaddi",
-    "score": 9.086190476190477,
-    "opponent": "Netherlands",
+    "name": "Aleksandar Pavlovic",
+    "score": 9.087966101694915,
+    "opponent": "Ecuador",
     "position": "MID",
-    "team": "Morocco",
+    "team": "Germany",
     "penalty_taker": false,
     "selected": 0.5,
-    "shots": 0,
+    "shots": 1,
     "goals_scored": 0,
-    "minutes_played": 180,
+    "minutes_played": 150,
     "chances": 0,
-    "tackles": 5
+    "tackles": 3
   },
   {
     "name": "Gustavo Puerta",
@@ -1183,12 +1059,12 @@
   },
   {
     "name": "Bruno Miguel Borges Fernandes",
-    "score": 9.032555555555556,
+    "score": 9.031555555555556,
     "opponent": "Colombia",
     "position": "MID",
     "team": "Portugal",
     "penalty_taker": false,
-    "selected": 37.3,
+    "selected": 37.4,
     "shots": 1,
     "goals_scored": 0,
     "minutes_played": 180,
@@ -1244,25 +1120,12 @@
     "position": "MID",
     "team": "Norway",
     "penalty_taker": false,
-    "selected": 4,
+    "selected": 3.9,
     "shots": 1,
     "goals_scored": 0,
     "minutes_played": 171,
     "chances": 2,
     "tackles": 3
-  },
-  {
-    "name": "Juninho Bacuna",
-    "score": 8.95,
-    "position": "MID",
-    "team": "Curaçao",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 255,
-    "chances": 0,
-    "tackles": 6
   },
   {
     "name": "Ali Ahmed",
@@ -1293,6 +1156,20 @@
     "tackles": 4
   },
   {
+    "name": "Andrés Cubas",
+    "score": 8.894716981132076,
+    "opponent": "Australia",
+    "position": "MID",
+    "team": "Paraguay",
+    "penalty_taker": false,
+    "selected": 0,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 180,
+    "chances": 0,
+    "tackles": 6
+  },
+  {
     "name": "Paul Okon",
     "score": 8.882380952380952,
     "opponent": "Paraguay",
@@ -1307,17 +1184,18 @@
     "tackles": 4
   },
   {
-    "name": "Aleksandar Pavlovic",
-    "score": 8.86,
+    "name": "Ibrahim Sangaré",
+    "score": 8.88,
+    "opponent": "Curaçao",
     "position": "MID",
-    "team": "Germany",
+    "team": "Côte d'Ivoire",
     "penalty_taker": false,
-    "selected": 0.5,
-    "shots": 1,
+    "selected": 0.1,
+    "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 195,
+    "minutes_played": 88,
     "chances": 0,
-    "tackles": 3
+    "tackles": 8
   },
   {
     "name": "Mateo Kovacic",
@@ -1348,17 +1226,18 @@
     "tackles": 3
   },
   {
-    "name": "Nilson Angulo",
+    "name": "Arda Güler",
     "score": 8.82,
+    "opponent": "USA",
     "position": "MID",
-    "team": "Ecuador",
+    "team": "Türkiye",
     "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 2,
-    "goals_scored": 1,
-    "minutes_played": 139,
+    "selected": 4.8,
+    "shots": 3,
+    "goals_scored": 0,
+    "minutes_played": 180,
     "chances": 0,
-    "tackles": 1
+    "tackles": 2
   },
   {
     "name": "Declan Rice",
@@ -1375,21 +1254,22 @@
     "tackles": 2
   },
   {
-    "name": "Ibrahim Sangaré",
-    "score": 8.78,
+    "name": "Florian Wirtz",
+    "score": 8.753966101694916,
+    "opponent": "Ecuador",
     "position": "MID",
-    "team": "Côte d'Ivoire",
+    "team": "Germany",
     "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 0,
+    "selected": 13.4,
+    "shots": 1,
     "goals_scored": 0,
-    "minutes_played": 178,
+    "minutes_played": 180,
     "chances": 1,
-    "tackles": 11
+    "tackles": 4
   },
   {
     "name": "Matías Galarza",
-    "score": 8.774716981132075,
+    "score": 8.734716981132076,
     "opponent": "Australia",
     "position": "MID",
     "team": "Paraguay",
@@ -1397,7 +1277,21 @@
     "selected": 0.1,
     "shots": 1,
     "goals_scored": 1,
-    "minutes_played": 93,
+    "minutes_played": 89,
+    "chances": 0,
+    "tackles": 3
+  },
+  {
+    "name": "Kaishu Sano",
+    "score": 8.73,
+    "opponent": "Sweden",
+    "position": "MID",
+    "team": "Japan",
+    "penalty_taker": false,
+    "selected": 0.2,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 180,
     "chances": 0,
     "tackles": 3
   },
@@ -1426,6 +1320,47 @@
     "minutes_played": 152,
     "chances": 0,
     "tackles": 5
+  },
+  {
+    "name": "Ayyoub Bouaddi",
+    "score": 8.610000000000001,
+    "position": "MID",
+    "team": "Morocco",
+    "penalty_taker": false,
+    "selected": 0.5,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 180,
+    "chances": 0,
+    "tackles": 5
+  },
+  {
+    "name": "Hannibal Mejbri",
+    "score": 8.596190476190477,
+    "opponent": "Netherlands",
+    "position": "MID",
+    "team": "Tunisia",
+    "penalty_taker": false,
+    "selected": 0.2,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 180,
+    "chances": 0,
+    "tackles": 6
+  },
+  {
+    "name": "Leroy Sané",
+    "score": 8.587966101694915,
+    "opponent": "Ecuador",
+    "position": "MID",
+    "team": "Germany",
+    "penalty_taker": false,
+    "selected": 1.2,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 150,
+    "chances": 0,
+    "tackles": 3
   },
   {
     "name": "Konrad Laimer",
@@ -1525,20 +1460,6 @@
     "tackles": 8
   },
   {
-    "name": "Julio Enciso",
-    "score": 8.424716981132075,
-    "opponent": "Australia",
-    "position": "MID",
-    "team": "Paraguay",
-    "penalty_taker": false,
-    "selected": 0.4,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 183,
-    "chances": 1,
-    "tackles": 3
-  },
-  {
     "name": "Carlos Harvey",
     "score": 8.414782608695653,
     "opponent": "England",
@@ -1553,17 +1474,18 @@
     "tackles": 5
   },
   {
-    "name": "Tahith Chong",
-    "score": 8.39,
+    "name": "Julio Enciso",
+    "score": 8.384716981132076,
+    "opponent": "Australia",
     "position": "MID",
-    "team": "Curaçao",
+    "team": "Paraguay",
     "penalty_taker": false,
-    "selected": 0.5,
-    "shots": 2,
+    "selected": 0.4,
+    "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 249,
-    "chances": 0,
-    "tackles": 2
+    "minutes_played": 179,
+    "chances": 1,
+    "tackles": 3
   },
   {
     "name": "Rodrigo Bentancur",
@@ -1571,20 +1493,6 @@
     "opponent": "Spain",
     "position": "MID",
     "team": "Uruguay",
-    "penalty_taker": false,
-    "selected": 0.2,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 180,
-    "chances": 0,
-    "tackles": 3
-  },
-  {
-    "name": "Kaishu Sano",
-    "score": 8.36956043956044,
-    "opponent": "Brazil",
-    "position": "MID",
-    "team": "Japan",
     "penalty_taker": false,
     "selected": 0.2,
     "shots": 0,
@@ -1664,44 +1572,17 @@
     "tackles": 0
   },
   {
-    "name": "Azzedine Ounahi",
-    "score": 8.276190476190477,
-    "opponent": "Netherlands",
-    "position": "MID",
-    "team": "Morocco",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 174,
-    "chances": 1,
-    "tackles": 1
-  },
-  {
     "name": "Pedro González López",
-    "score": 8.272380281690142,
+    "score": 8.27138028169014,
     "opponent": "Uruguay",
     "position": "MID",
     "team": "Spain",
     "penalty_taker": false,
-    "selected": 8.1,
+    "selected": 8.2,
     "shots": 1,
     "goals_scored": 0,
     "minutes_played": 160,
     "chances": 1,
-    "tackles": 2
-  },
-  {
-    "name": "Anis Ben Slimane",
-    "score": 8.24,
-    "position": "MID",
-    "team": "Tunisia",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 1,
-    "goals_scored": 0,
-    "minutes_played": 242,
-    "chances": 0,
     "tackles": 2
   },
   {
@@ -1801,16 +1682,16 @@
     "tackles": 1
   },
   {
-    "name": "Diego Gómez",
-    "score": 8.104716981132075,
-    "opponent": "Australia",
+    "name": "Alan Franco",
+    "score": 8.111927710843373,
+    "opponent": "Germany",
     "position": "MID",
-    "team": "Paraguay",
+    "team": "Ecuador",
     "penalty_taker": false,
-    "selected": 0.2,
+    "selected": 0,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 151,
+    "minutes_played": 145,
     "chances": 0,
     "tackles": 4
   },
@@ -1843,17 +1724,32 @@
     "tackles": 6
   },
   {
-    "name": "Ellyes Skhiri",
+    "name": "Ao Tanaka",
     "score": 8.08,
+    "opponent": "Sweden",
     "position": "MID",
-    "team": "Tunisia",
+    "team": "Japan",
     "penalty_taker": false,
-    "selected": 0,
+    "selected": 1,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 251,
+    "minutes_played": 90,
     "chances": 0,
-    "tackles": 3
+    "tackles": 4
+  },
+  {
+    "name": "Diego Gómez",
+    "score": 8.064716981132076,
+    "opponent": "Australia",
+    "position": "MID",
+    "team": "Paraguay",
+    "penalty_taker": false,
+    "selected": 0.2,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 147,
+    "chances": 0,
+    "tackles": 4
   },
   {
     "name": "Aiden O'Neill",
@@ -1924,6 +1820,20 @@
     "minutes_played": 146,
     "chances": 0,
     "tackles": 3
+  },
+  {
+    "name": "Christ Inao Oulaï",
+    "score": 8.03,
+    "opponent": "Curaçao",
+    "position": "MID",
+    "team": "Côte d'Ivoire",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 103,
+    "chances": 0,
+    "tackles": 4
   },
   {
     "name": "Joe Bell",
@@ -2010,6 +1920,20 @@
     "tackles": 3
   },
   {
+    "name": "Tijjani Reijnders",
+    "score": 7.945609756097562,
+    "opponent": "Tunisia",
+    "position": "MID",
+    "team": "Netherlands",
+    "penalty_taker": false,
+    "selected": 1.2,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 129,
+    "chances": 0,
+    "tackles": 0
+  },
+  {
     "name": "Amadou Onana",
     "score": 7.8991304347826095,
     "opponent": "New Zealand",
@@ -2094,6 +2018,19 @@
     "tackles": 2
   },
   {
+    "name": "Azzedine Ounahi",
+    "score": 7.800000000000001,
+    "position": "MID",
+    "team": "Morocco",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 174,
+    "chances": 1,
+    "tackles": 1
+  },
+  {
     "name": "Manuel Ugarte",
     "score": 7.752371134020619,
     "opponent": "Spain",
@@ -2106,6 +2043,20 @@
     "minutes_played": 142,
     "chances": 0,
     "tackles": 0
+  },
+  {
+    "name": "Jesper Karlström",
+    "score": 7.729710144927536,
+    "opponent": "Japan",
+    "position": "MID",
+    "team": "Sweden",
+    "penalty_taker": false,
+    "selected": 0,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 140,
+    "chances": 0,
+    "tackles": 3
   },
   {
     "name": "Dani Olmo",
@@ -2164,18 +2115,32 @@
     "tackles": 0
   },
   {
-    "name": "Kenan Yildiz",
-    "score": 7.68,
-    "opponent": "USA",
+    "name": "Teun Koopmeiners",
+    "score": 7.665609756097561,
+    "opponent": "Tunisia",
     "position": "MID",
-    "team": "Türkiye",
+    "team": "Netherlands",
     "penalty_taker": false,
-    "selected": 1.8,
-    "shots": 1,
+    "selected": 0.1,
+    "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 141,
-    "chances": 1,
+    "minutes_played": 51,
+    "chances": 0,
     "tackles": 2
+  },
+  {
+    "name": "Ellyes Skhiri",
+    "score": 7.656190476190477,
+    "opponent": "Netherlands",
+    "position": "MID",
+    "team": "Tunisia",
+    "penalty_taker": false,
+    "selected": 0,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 161,
+    "chances": 0,
+    "tackles": 3
   },
   {
     "name": "Ahmed Fathy Mansi Abdoulla",
@@ -2191,20 +2156,6 @@
     "tackles": 5
   },
   {
-    "name": "Weston McKennie",
-    "score": 7.6343137254901965,
-    "opponent": "Türkiye",
-    "position": "MID",
-    "team": "USA",
-    "penalty_taker": false,
-    "selected": 0.7,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 185,
-    "chances": 0,
-    "tackles": 4
-  },
-  {
     "name": "Álvaro Fidalgo",
     "score": 7.62,
     "position": "MID",
@@ -2216,6 +2167,20 @@
     "minutes_played": 84,
     "chances": 0,
     "tackles": 0
+  },
+  {
+    "name": "Kenan Yildiz",
+    "score": 7.619999999999999,
+    "opponent": "USA",
+    "position": "MID",
+    "team": "Türkiye",
+    "penalty_taker": false,
+    "selected": 1.8,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 135,
+    "chances": 1,
+    "tackles": 2
   },
   {
     "name": "Marwan Attia Fahim Ghallab",
@@ -2241,6 +2206,34 @@
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 261,
+    "chances": 0,
+    "tackles": 2
+  },
+  {
+    "name": "Juninho Bacuna",
+    "score": 7.550000000000001,
+    "opponent": "Côte d'Ivoire",
+    "position": "MID",
+    "team": "Curaçao",
+    "penalty_taker": false,
+    "selected": 0,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 165,
+    "chances": 0,
+    "tackles": 4
+  },
+  {
+    "name": "Anis Ben Slimane",
+    "score": 7.536190476190477,
+    "opponent": "Netherlands",
+    "position": "MID",
+    "team": "Tunisia",
+    "penalty_taker": false,
+    "selected": 0,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 174,
     "chances": 0,
     "tackles": 2
   },
@@ -2314,18 +2307,18 @@
     "tackles": 3
   },
   {
-    "name": "Sofyan Amrabat",
-    "score": 7.436190476190477,
-    "opponent": "Netherlands",
+    "name": "Seko Fofana",
+    "score": 7.42,
+    "opponent": "Curaçao",
     "position": "MID",
-    "team": "Morocco",
+    "team": "Côte d'Ivoire",
     "penalty_taker": false,
     "selected": 0.1,
-    "shots": 0,
+    "shots": 1,
     "goals_scored": 0,
-    "minutes_played": 90,
+    "minutes_played": 92,
     "chances": 0,
-    "tackles": 2
+    "tackles": 0
   },
   {
     "name": "Abdulla Abdullaev",
@@ -2340,20 +2333,6 @@
     "minutes_played": 180,
     "chances": 0,
     "tackles": 4
-  },
-  {
-    "name": "Teun Koopmeiners",
-    "score": 7.382820512820512,
-    "opponent": "Morocco",
-    "position": "MID",
-    "team": "Netherlands",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 69,
-    "chances": 0,
-    "tackles": 2
   },
   {
     "name": "Nabil Bentaleb",
@@ -2384,20 +2363,6 @@
     "tackles": 5
   },
   {
-    "name": "Fábio Henrique Tavares",
-    "score": 7.349710144927536,
-    "opponent": "Japan",
-    "position": "MID",
-    "team": "Brazil",
-    "penalty_taker": false,
-    "selected": 0.3,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 70,
-    "chances": 0,
-    "tackles": 1
-  },
-  {
     "name": "Amar Memic",
     "score": 7.34,
     "position": "MID",
@@ -2407,6 +2372,20 @@
     "shots": 1,
     "goals_scored": 0,
     "minutes_played": 209,
+    "chances": 0,
+    "tackles": 3
+  },
+  {
+    "name": "Weston McKennie",
+    "score": 7.324313725490196,
+    "opponent": "Türkiye",
+    "position": "MID",
+    "team": "USA",
+    "penalty_taker": false,
+    "selected": 0.7,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 179,
     "chances": 0,
     "tackles": 3
   },
@@ -2442,7 +2421,7 @@
     "position": "MID",
     "team": "Czechia",
     "penalty_taker": false,
-    "selected": 0.1,
+    "selected": 0.2,
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 189,
@@ -2576,12 +2555,12 @@
   },
   {
     "name": "Vítor Machado Ferreira",
-    "score": 7.172555555555556,
+    "score": 7.171555555555556,
     "opponent": "Colombia",
     "position": "MID",
     "team": "Portugal",
     "penalty_taker": false,
-    "selected": 9.3,
+    "selected": 9.4,
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 166,
@@ -2601,33 +2580,6 @@
     "minutes_played": 179,
     "chances": 0,
     "tackles": 1
-  },
-  {
-    "name": "Jesper Karlström",
-    "score": 7.15,
-    "position": "MID",
-    "team": "Sweden",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 140,
-    "chances": 0,
-    "tackles": 3
-  },
-  {
-    "name": "Gabriel Teodoro Martinelli Silva",
-    "score": 7.1497101449275355,
-    "opponent": "Japan",
-    "position": "MID",
-    "team": "Brazil",
-    "penalty_taker": false,
-    "selected": 0.6,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 50,
-    "chances": 1,
-    "tackles": 0
   },
   {
     "name": "Otabek Shukurov",
@@ -2727,6 +2679,33 @@
     "tackles": 2
   },
   {
+    "name": "Sofyan Amrabat",
+    "score": 6.960000000000001,
+    "position": "MID",
+    "team": "Morocco",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 90,
+    "chances": 0,
+    "tackles": 2
+  },
+  {
+    "name": "Nilson Angulo",
+    "score": 6.951927710843374,
+    "opponent": "Germany",
+    "position": "MID",
+    "team": "Ecuador",
+    "penalty_taker": false,
+    "selected": 0.1,
+    "shots": 1,
+    "goals_scored": 0,
+    "minutes_played": 54,
+    "chances": 0,
+    "tackles": 1
+  },
+  {
     "name": "Laros Michael d'Encarnação  Duarte",
     "score": 6.942857142857142,
     "opponent": "Saudi Arabia",
@@ -2752,6 +2731,20 @@
     "minutes_played": 119,
     "chances": 1,
     "tackles": 4
+  },
+  {
+    "name": "Takefusa Kubo",
+    "score": 6.93,
+    "opponent": "Sweden",
+    "position": "MID",
+    "team": "Japan",
+    "penalty_taker": false,
+    "selected": 0.9,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 75,
+    "chances": 0,
+    "tackles": 0
   },
   {
     "name": "Sphephelo S'Miso Sithole",
@@ -2835,6 +2828,20 @@
     "tackles": 3
   },
   {
+    "name": "Daizen Maeda",
+    "score": 6.84,
+    "opponent": "Sweden",
+    "position": "MID",
+    "team": "Japan",
+    "penalty_taker": false,
+    "selected": 1,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 66,
+    "chances": 0,
+    "tackles": 0
+  },
+  {
     "name": "Lukás Provod",
     "score": 6.84,
     "position": "MID",
@@ -2846,19 +2853,6 @@
     "minutes_played": 121,
     "chances": 0,
     "tackles": 3
-  },
-  {
-    "name": "Rani Khedira",
-    "score": 6.83,
-    "position": "MID",
-    "team": "Tunisia",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 151,
-    "chances": 0,
-    "tackles": 2
   },
   {
     "name": "Elisha Owusu",
@@ -2902,17 +2896,17 @@
     "tackles": 1
   },
   {
-    "name": "Christ Inao Oulaï",
-    "score": 6.73,
+    "name": "Fábio Henrique Tavares",
+    "score": 6.7700000000000005,
     "position": "MID",
-    "team": "Côte d'Ivoire",
+    "team": "Brazil",
     "penalty_taker": false,
-    "selected": 0.1,
+    "selected": 0.3,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 148,
+    "minutes_played": 70,
     "chances": 0,
-    "tackles": 5
+    "tackles": 1
   },
   {
     "name": "Ivan Sunjic",
@@ -2942,6 +2936,20 @@
     "tackles": 0
   },
   {
+    "name": "Lucas Bergvall",
+    "score": 6.669710144927536,
+    "opponent": "Japan",
+    "position": "MID",
+    "team": "Sweden",
+    "penalty_taker": false,
+    "selected": 0.4,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 59,
+    "chances": 0,
+    "tackles": 2
+  },
+  {
     "name": "Ayoub Mohamed Al Oui",
     "score": 6.63,
     "position": "MID",
@@ -2967,19 +2975,6 @@
     "minutes_played": 61,
     "chances": 0,
     "tackles": 0
-  },
-  {
-    "name": "Lucas Bergvall",
-    "score": 6.62,
-    "position": "MID",
-    "team": "Sweden",
-    "penalty_taker": false,
-    "selected": 0.4,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 112,
-    "chances": 0,
-    "tackles": 2
   },
   {
     "name": "Nasser bin Essa bin Shafi Al Shardan Al Dawsari",
@@ -3010,17 +3005,16 @@
     "tackles": 1
   },
   {
-    "name": "Takefusa Kubo",
-    "score": 6.56956043956044,
-    "opponent": "Brazil",
+    "name": "Gabriel Teodoro Martinelli Silva",
+    "score": 6.57,
     "position": "MID",
-    "team": "Japan",
+    "team": "Brazil",
     "penalty_taker": false,
-    "selected": 0.9,
+    "selected": 0.6,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 75,
-    "chances": 0,
+    "minutes_played": 50,
+    "chances": 1,
     "tackles": 0
   },
   {
@@ -3147,6 +3141,20 @@
     "tackles": 1
   },
   {
+    "name": "Rani Khedira",
+    "score": 6.386190476190476,
+    "opponent": "Netherlands",
+    "position": "MID",
+    "team": "Tunisia",
+    "penalty_taker": false,
+    "selected": 0,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 84,
+    "chances": 0,
+    "tackles": 1
+  },
+  {
     "name": "Deroy d'Encarnação Duarte",
     "score": 6.382857142857143,
     "opponent": "Saudi Arabia",
@@ -3184,19 +3192,6 @@
     "shots": 0,
     "goals_scored": 0,
     "minutes_played": 206,
-    "chances": 0,
-    "tackles": 1
-  },
-  {
-    "name": "Elliot Stroud",
-    "score": 6.26,
-    "position": "MID",
-    "team": "Sweden",
-    "penalty_taker": false,
-    "selected": 0,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 101,
     "chances": 0,
     "tackles": 1
   },
@@ -3281,32 +3276,18 @@
     "tackles": 2
   },
   {
-    "name": "Orkun Kökçü",
-    "score": 5.989999999999999,
-    "opponent": "USA",
+    "name": "Tahith Chong",
+    "score": 5.99,
+    "opponent": "Côte d'Ivoire",
     "position": "MID",
-    "team": "Türkiye",
+    "team": "Curaçao",
     "penalty_taker": false,
-    "selected": 0.2,
+    "selected": 0.5,
     "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 72,
+    "minutes_played": 159,
     "chances": 0,
-    "tackles": 1
-  },
-  {
-    "name": "Sebastian Berhalter",
-    "score": 5.954313725490196,
-    "opponent": "Türkiye",
-    "position": "MID",
-    "team": "USA",
-    "penalty_taker": false,
-    "selected": 0.1,
-    "shots": 0,
-    "goals_scored": 0,
-    "minutes_played": 67,
-    "chances": 1,
-    "tackles": 1
+    "tackles": 0
   },
   {
     "name": "Telmo Emanuel Gomes Arcanjo",
@@ -3335,6 +3316,20 @@
     "minutes_played": 135,
     "chances": 0,
     "tackles": 0
+  },
+  {
+    "name": "Orkun Kökçü",
+    "score": 5.93,
+    "opponent": "USA",
+    "position": "MID",
+    "team": "Türkiye",
+    "penalty_taker": false,
+    "selected": 0.2,
+    "shots": 0,
+    "goals_scored": 0,
+    "minutes_played": 66,
+    "chances": 0,
+    "tackles": 1
   },
   {
     "name": "Karim Boudiaf",
@@ -3417,15 +3412,16 @@
     "tackles": 0
   },
   {
-    "name": "Seko Fofana",
-    "score": 5.42,
+    "name": "Sebastian Berhalter",
+    "score": 5.394313725490196,
+    "opponent": "Türkiye",
     "position": "MID",
-    "team": "Côte d'Ivoire",
+    "team": "USA",
     "penalty_taker": false,
     "selected": 0.1,
-    "shots": 1,
+    "shots": 0,
     "goals_scored": 0,
-    "minutes_played": 92,
+    "minutes_played": 61,
     "chances": 0,
     "tackles": 0
   },
