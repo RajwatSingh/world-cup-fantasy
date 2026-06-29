@@ -88,7 +88,7 @@ TEAM_STRENGTH = {
     "Panama": 3.4,
     "Iraq": 3.2,
     "Uzbekistan": 3.0,
-    "Cape Verde": 2.8,
+    "Cabo Verde": 2.8,
     "Jordan": 2.7,
     "Haiti": 2.4,
     "New Zealand": 2.3,
@@ -271,7 +271,6 @@ def map_player_stats(players):
 
 
 def rank_players():
-    print("Starting the rankings for the players")
     for name, info in full_player_info.items():
         opponent = info.get("opponent", 0)
 
@@ -316,7 +315,7 @@ def rank_players():
         if info["minutes_played"] < 50:
             score = 0
         else:
-            score += info["minutes_played"] / 100
+            score += info["minutes_played"] / 500
 
         full_player_info[name]["score"] = score
 
