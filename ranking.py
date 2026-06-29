@@ -271,14 +271,17 @@ def map_player_stats(players):
 
 
 def rank_players():
+    print("Starting the rankings for the players")
     for name, info in full_player_info.items():
         opponent = info.get("opponent", 0)
 
         opp_strength = TEAM_STRENGTH.get(opponent)
         team_strength = TEAM_STRENGTH.get(info["team"])
         score = 0
-        if opp_strength:
-            score += (1 / opp_strength) * 4
+        if not opp_strength:
+            continue
+
+        score += (1 / opp_strength) * 4
 
         if team_strength:
             score += team_strength / 5
@@ -344,7 +347,7 @@ def main():
     items = list(full_player_info.items())
 
     for player, score in items:
-        if score["score"] == 0:
+        if score.get("score", 0) == 0:
             full_player_info.pop(player)
 
     forwards, midfielders, defenders, goalkeepers = {}, {}, {}, {}

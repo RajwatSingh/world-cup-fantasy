@@ -1,242 +1,338 @@
 [
-    {
-        "id": 1,
-        "name": "Algeria",
-        "abbr": "ALG"
-    },
-    {
-        "id": 2,
-        "name": "Argentina",
-        "abbr": "ARG"
-    },
-    {
-        "id": 3,
-        "name": "Australia",
-        "abbr": "AUS"
-    },
-    {
-        "id": 4,
-        "name": "Austria",
-        "abbr": "AUT"
-    },
-    {
-        "id": 5,
-        "name": "Belgium",
-        "abbr": "BEL"
-    },
-    {
-        "id": 6,
-        "name": "Bosnia and Herzegovina",
-        "abbr": "BIH"
-    },
-    {
-        "id": 7,
-        "name": "Brazil",
-        "abbr": "BRA"
-    },
-    {
-        "id": 8,
-        "name": "Cabo Verde",
-        "abbr": "CPV"
-    },
-    {
-        "id": 9,
-        "name": "Canada",
-        "abbr": "CAN"
-    },
-    {
-        "id": 10,
-        "name": "Colombia",
-        "abbr": "COL"
-    },
-    {
-        "id": 11,
-        "name": "Congo DR",
-        "abbr": "COD"
-    },
-    {
-        "id": 12,
-        "name": "C\u00f4te d'Ivoire",
-        "abbr": "CIV"
-    },
-    {
-        "id": 13,
-        "name": "Croatia",
-        "abbr": "CRO"
-    },
-    {
-        "id": 14,
-        "name": "Cura\u00e7ao",
-        "abbr": "CUW"
-    },
-    {
-        "id": 15,
-        "name": "Czechia",
-        "abbr": "CZE"
-    },
-    {
-        "id": 16,
-        "name": "Ecuador",
-        "abbr": "ECU"
-    },
-    {
-        "id": 17,
-        "name": "Egypt",
-        "abbr": "EGY"
-    },
-    {
-        "id": 18,
-        "name": "England",
-        "abbr": "ENG"
-    },
-    {
-        "id": 19,
-        "name": "France",
-        "abbr": "FRA"
-    },
-    {
-        "id": 20,
-        "name": "Germany",
-        "abbr": "GER"
-    },
-    {
-        "id": 21,
-        "name": "Ghana",
-        "abbr": "GHA"
-    },
-    {
-        "id": 22,
-        "name": "Haiti",
-        "abbr": "HAI"
-    },
-    {
-        "id": 23,
-        "name": "IR Iran",
-        "abbr": "IRN"
-    },
-    {
-        "id": 24,
-        "name": "Iraq",
-        "abbr": "IRQ"
-    },
-    {
-        "id": 25,
-        "name": "Japan",
-        "abbr": "JPN"
-    },
-    {
-        "id": 26,
-        "name": "Jordan",
-        "abbr": "JOR"
-    },
-    {
-        "id": 27,
-        "name": "Korea Republic",
-        "abbr": "KOR"
-    },
-    {
-        "id": 28,
-        "name": "Mexico",
-        "abbr": "MEX"
-    },
-    {
-        "id": 29,
-        "name": "Morocco",
-        "abbr": "MAR"
-    },
-    {
-        "id": 30,
-        "name": "Netherlands",
-        "abbr": "NED"
-    },
-    {
-        "id": 31,
-        "name": "New Zealand",
-        "abbr": "NZL"
-    },
-    {
-        "id": 32,
-        "name": "Norway",
-        "abbr": "NOR"
-    },
-    {
-        "id": 33,
-        "name": "Panama",
-        "abbr": "PAN"
-    },
-    {
-        "id": 34,
-        "name": "Paraguay",
-        "abbr": "PAR"
-    },
-    {
-        "id": 35,
-        "name": "Portugal",
-        "abbr": "POR"
-    },
-    {
-        "id": 36,
-        "name": "Qatar",
-        "abbr": "QAT"
-    },
-    {
-        "id": 37,
-        "name": "Saudi Arabia",
-        "abbr": "KSA"
-    },
-    {
-        "id": 38,
-        "name": "Scotland",
-        "abbr": "SCO"
-    },
-    {
-        "id": 39,
-        "name": "Senegal",
-        "abbr": "SEN"
-    },
-    {
-        "id": 40,
-        "name": "South Africa",
-        "abbr": "RSA"
-    },
-    {
-        "id": 41,
-        "name": "Spain",
-        "abbr": "ESP"
-    },
-    {
-        "id": 42,
-        "name": "Sweden",
-        "abbr": "SWE"
-    },
-    {
-        "id": 43,
-        "name": "Switzerland",
-        "abbr": "SUI"
-    },
-    {
-        "id": 44,
-        "name": "Tunisia",
-        "abbr": "TUN"
-    },
-    {
-        "id": 45,
-        "name": "T\u00fcrkiye",
-        "abbr": "TUR"
-    },
-    {
-        "id": 46,
-        "name": "Uruguay",
-        "abbr": "URU"
-    },
-    {
-        "id": 47,
-        "name": "USA",
-        "abbr": "USA"
-    },
-    {
-        "id": 48,
-        "name": "Uzbekistan",
-        "abbr": "UZB"
-    }
+  {
+    "id": 1,
+    "name": "Algeria",
+    "group": "j",
+    "abbr": "ALG",
+    "isEliminated": false
+  },
+  {
+    "id": 2,
+    "name": "Argentina",
+    "group": "j",
+    "abbr": "ARG",
+    "isEliminated": false
+  },
+  {
+    "id": 3,
+    "name": "Australia",
+    "group": "d",
+    "abbr": "AUS",
+    "isEliminated": false
+  },
+  {
+    "id": 4,
+    "name": "Austria",
+    "group": "j",
+    "abbr": "AUT",
+    "isEliminated": false
+  },
+  {
+    "id": 5,
+    "name": "Belgium",
+    "group": "g",
+    "abbr": "BEL",
+    "isEliminated": false
+  },
+  {
+    "id": 6,
+    "name": "Bosnia and Herzegovina",
+    "group": "b",
+    "abbr": "BIH",
+    "isEliminated": false
+  },
+  {
+    "id": 7,
+    "name": "Brazil",
+    "group": "c",
+    "abbr": "BRA",
+    "isEliminated": false
+  },
+  {
+    "id": 8,
+    "name": "Cabo Verde",
+    "group": "h",
+    "abbr": "CPV",
+    "isEliminated": false
+  },
+  {
+    "id": 9,
+    "name": "Canada",
+    "group": "b",
+    "abbr": "CAN",
+    "isEliminated": false
+  },
+  {
+    "id": 10,
+    "name": "Colombia",
+    "group": "k",
+    "abbr": "COL",
+    "isEliminated": false
+  },
+  {
+    "id": 11,
+    "name": "Congo DR",
+    "group": "k",
+    "abbr": "COD",
+    "isEliminated": false
+  },
+  {
+    "id": 12,
+    "name": "Côte d'Ivoire",
+    "group": "e",
+    "abbr": "CIV",
+    "isEliminated": false
+  },
+  {
+    "id": 13,
+    "name": "Croatia",
+    "group": "l",
+    "abbr": "CRO",
+    "isEliminated": false
+  },
+  {
+    "id": 14,
+    "name": "Curaçao",
+    "group": "e",
+    "abbr": "CUW",
+    "isEliminated": true
+  },
+  {
+    "id": 15,
+    "name": "Czechia",
+    "group": "a",
+    "abbr": "CZE",
+    "isEliminated": true
+  },
+  {
+    "id": 16,
+    "name": "Ecuador",
+    "group": "e",
+    "abbr": "ECU",
+    "isEliminated": false
+  },
+  {
+    "id": 17,
+    "name": "Egypt",
+    "group": "g",
+    "abbr": "EGY",
+    "isEliminated": false
+  },
+  {
+    "id": 18,
+    "name": "England",
+    "group": "l",
+    "abbr": "ENG",
+    "isEliminated": false
+  },
+  {
+    "id": 19,
+    "name": "France",
+    "group": "i",
+    "abbr": "FRA",
+    "isEliminated": false
+  },
+  {
+    "id": 20,
+    "name": "Germany",
+    "group": "e",
+    "abbr": "GER",
+    "isEliminated": false
+  },
+  {
+    "id": 21,
+    "name": "Ghana",
+    "group": "l",
+    "abbr": "GHA",
+    "isEliminated": false
+  },
+  {
+    "id": 22,
+    "name": "Haiti",
+    "group": "c",
+    "abbr": "HAI",
+    "isEliminated": true
+  },
+  {
+    "id": 23,
+    "name": "IR Iran",
+    "group": "g",
+    "abbr": "IRN",
+    "isEliminated": true
+  },
+  {
+    "id": 24,
+    "name": "Iraq",
+    "group": "i",
+    "abbr": "IRQ",
+    "isEliminated": true
+  },
+  {
+    "id": 25,
+    "name": "Japan",
+    "group": "f",
+    "abbr": "JPN",
+    "isEliminated": false
+  },
+  {
+    "id": 26,
+    "name": "Jordan",
+    "group": "j",
+    "abbr": "JOR",
+    "isEliminated": true
+  },
+  {
+    "id": 27,
+    "name": "Korea Republic",
+    "group": "a",
+    "abbr": "KOR",
+    "isEliminated": true
+  },
+  {
+    "id": 28,
+    "name": "Mexico",
+    "group": "a",
+    "abbr": "MEX",
+    "isEliminated": false
+  },
+  {
+    "id": 29,
+    "name": "Morocco",
+    "group": "c",
+    "abbr": "MAR",
+    "isEliminated": false
+  },
+  {
+    "id": 30,
+    "name": "Netherlands",
+    "group": "f",
+    "abbr": "NED",
+    "isEliminated": false
+  },
+  {
+    "id": 31,
+    "name": "New Zealand",
+    "group": "g",
+    "abbr": "NZL",
+    "isEliminated": true
+  },
+  {
+    "id": 32,
+    "name": "Norway",
+    "group": "i",
+    "abbr": "NOR",
+    "isEliminated": false
+  },
+  {
+    "id": 33,
+    "name": "Panama",
+    "group": "l",
+    "abbr": "PAN",
+    "isEliminated": true
+  },
+  {
+    "id": 34,
+    "name": "Paraguay",
+    "group": "d",
+    "abbr": "PAR",
+    "isEliminated": false
+  },
+  {
+    "id": 35,
+    "name": "Portugal",
+    "group": "k",
+    "abbr": "POR",
+    "isEliminated": false
+  },
+  {
+    "id": 36,
+    "name": "Qatar",
+    "group": "b",
+    "abbr": "QAT",
+    "isEliminated": true
+  },
+  {
+    "id": 37,
+    "name": "Saudi Arabia",
+    "group": "h",
+    "abbr": "KSA",
+    "isEliminated": true
+  },
+  {
+    "id": 38,
+    "name": "Scotland",
+    "group": "c",
+    "abbr": "SCO",
+    "isEliminated": true
+  },
+  {
+    "id": 39,
+    "name": "Senegal",
+    "group": "i",
+    "abbr": "SEN",
+    "isEliminated": false
+  },
+  {
+    "id": 40,
+    "name": "South Africa",
+    "group": "a",
+    "abbr": "RSA",
+    "isEliminated": false
+  },
+  {
+    "id": 41,
+    "name": "Spain",
+    "group": "h",
+    "abbr": "ESP",
+    "isEliminated": false
+  },
+  {
+    "id": 42,
+    "name": "Sweden",
+    "group": "f",
+    "abbr": "SWE",
+    "isEliminated": false
+  },
+  {
+    "id": 43,
+    "name": "Switzerland",
+    "group": "b",
+    "abbr": "SUI",
+    "isEliminated": false
+  },
+  {
+    "id": 44,
+    "name": "Tunisia",
+    "group": "f",
+    "abbr": "TUN",
+    "isEliminated": true
+  },
+  {
+    "id": 45,
+    "name": "Türkiye",
+    "group": "d",
+    "abbr": "TUR",
+    "isEliminated": true
+  },
+  {
+    "id": 46,
+    "name": "Uruguay",
+    "group": "h",
+    "abbr": "URU",
+    "isEliminated": true
+  },
+  {
+    "id": 47,
+    "name": "USA",
+    "group": "d",
+    "abbr": "USA",
+    "isEliminated": false
+  },
+  {
+    "id": 48,
+    "name": "Uzbekistan",
+    "group": "k",
+    "abbr": "UZB",
+    "isEliminated": true
+  }
 ]

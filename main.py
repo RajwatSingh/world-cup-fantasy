@@ -1,10 +1,24 @@
-import json
-
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 import ranking
 
 app = FastAPI()
+
+# app.add_middleware(
+#   CORSMiddleware, allow_origins=["*"], allow_headers=["*"], allow_methods=["GET"]
+# )
+
+_cache = {"rows": None}
+
+
+def _rows():
+    if _cache["rows"] is None:
+        ranking.main()
+
+        _cache["rows"] = ranking.full_player_info
+
+    return _cache["rows"]
 
 
 @app.get("/ping")
@@ -26,16 +40,11 @@ def get_teams(min_strength: float = 0):
 
 @app.get("/api/players")
 def get_players(position: str = ""):
-    ranking.main()
-    ranks = ranking.full_player_info
+    ranks = _rows()
     result = {}
 
     for p, s in ranks.items():
         if s["position"] == position:
             result[p] = s
 
-    print(json.dumps(result, indent=4))
     return result
-
-
-get_players("FWD")
