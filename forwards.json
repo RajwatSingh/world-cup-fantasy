@@ -1,24 +1,24 @@
 [
   {
     "name": "Lionel Messi",
-    "score": 19.751571428571427,
+    "score": 19.750571428571426,
     "opponent": "Cabo Verde",
     "position": "FWD",
     "team": "Argentina",
     "penalty_taker": true,
-    "selected": 49.7,
+    "selected": 49.8,
     "shots": 9,
     "goals_scored": 6,
     "minutes_played": 200
   },
   {
     "name": "Kylian Mbappé",
-    "score": 17.189,
+    "score": 17.188,
     "opponent": "Sweden",
     "position": "FWD",
     "team": "France",
     "penalty_taker": true,
-    "selected": 64.3,
+    "selected": 64.4,
     "shots": 9,
     "goals_scored": 4,
     "minutes_played": 266
@@ -174,7 +174,7 @@
     "position": "FWD",
     "team": "Brazil",
     "penalty_taker": false,
-    "selected": 4.7,
+    "selected": 4.8,
     "shots": 4,
     "goals_scored": 3,
     "minutes_played": 169
@@ -409,12 +409,12 @@
   },
   {
     "name": "Julián Alvarez",
-    "score": 7.551571428571428,
+    "score": 7.5525714285714285,
     "opponent": "Cabo Verde",
     "position": "FWD",
     "team": "Argentina",
     "penalty_taker": false,
-    "selected": 8.3,
+    "selected": 8.2,
     "shots": 2,
     "goals_scored": 0,
     "minutes_played": 143
