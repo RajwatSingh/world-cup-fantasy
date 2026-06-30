@@ -12,6 +12,31 @@ HEADERS = {
 
 def get_people(managers):
     page = 0
-    url = f"{URL}{page}"
-    request = requests.get(url, headers=HEADERS)
-    data = request.json()
+    result = {}
+
+    while True:
+        url = f"{URL}{page}"
+        request = requests.get(url, headers=HEADERS, timeout=10)
+
+        if request.status_code != 200:
+            print(f"request failed: status {request.status_code} on page {page}")
+            break
+
+        data = request.json()
+
+        ranks = data.get("success", {}).get("ranks", [])
+        if not ranks:
+            break
+
+        for m in ranks:
+            if m.get("userName") in managers:
+                result[m["userName"]] = {
+                    "overall_points": m.get("overallPoints"),
+                    "rank": m.get("overallRank"),
+                }
+        page += 1
+
+    return result
+
+
+print(json.dumps(get_people({"Zoro juro"})))
