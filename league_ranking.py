@@ -1,5 +1,6 @@
 import json
 
+import matplotlib.pyplot as plt
 import requests
 
 URL = "https://play.fifa.com/api/en/fantasy/ranking/league/8578?limit=20"
@@ -39,12 +40,58 @@ def get_people(startId, managers):
     return result
 
 
-for i in range(1, 5):
-    print(f"===============Round {i}===============")
-    print(
-        json.dumps(
-            get_people(i, {"ramborajwat", "AswinKopite", "CHEKCHY", "Prakshyam"}),
-            indent=4,
-        )
-    )
-    print("=======================================")
+def collect_progression(managers, num_rounds):
+    progression = {m: {"rounds": [], "ranks": [], "points": []} for m in managers}
+
+    for rnd in range(1, num_rounds + 1):
+        print(f"===============Round {rnd}===============")
+        people = get_people(rnd, managers)
+        print(json.dumps(people, indent=4))
+
+        for manager, stats in people.items():
+            entry = progression[manager]
+            entry["rounds"].append(rnd)
+            entry["ranks"].append(stats["rank"])
+            entry["points"].append(stats["overall_points"])
+
+    return progression
+
+
+def plot_progression(progression, path="league_progression.png"):
+    fig, (rank_ax, points_ax) = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
+
+    for manager, entry in progression.items():
+        if not entry["rounds"]:
+            continue
+        rank_ax.plot(entry["rounds"], entry["ranks"], marker="o", label=manager)
+        points_ax.plot(entry["rounds"], entry["points"], marker="o", label=manager)
+
+    rank_ax.set_title("League rank progression")
+    rank_ax.set_ylabel("Overall rank")
+    rank_ax.invert_yaxis()  # rank 1 (best) sits at the top
+    rank_ax.grid(True, alpha=0.3)
+    rank_ax.legend()
+
+    points_ax.set_title("League points progression")
+    points_ax.set_ylabel("Overall points")
+    points_ax.set_xlabel("Round")
+    points_ax.grid(True, alpha=0.3)
+    points_ax.legend()
+
+    # Only whole-numbered rounds make sense on the x-axis.
+    all_rounds = sorted({r for e in progression.values() for r in e["rounds"]})
+    if all_rounds:
+        points_ax.set_xticks(all_rounds)
+
+    fig.tight_layout()
+    fig.savefig(path, dpi=150)
+    plt.close(fig)
+    print(f"Saved progression graph to {path}")
+
+
+if __name__ == "__main__":
+    MANAGERS = {"ramborajwat", "AswinKopite", "CHEKCHY", "Prakshyam"}
+    NUM_ROUNDS = 4
+
+    data = collect_progression(MANAGERS, NUM_ROUNDS)
+    plot_progression(data)
