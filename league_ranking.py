@@ -44,9 +44,7 @@ def collect_progression(managers, num_rounds):
     progression = {m: {"rounds": [], "ranks": [], "points": []} for m in managers}
 
     for rnd in range(1, num_rounds + 1):
-        print(f"===============Round {rnd}===============")
         people = get_people(rnd, managers)
-        print(json.dumps(people, indent=4))
 
         for manager, stats in people.items():
             entry = progression[manager]
