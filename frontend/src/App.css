@@ -1,0 +1,157 @@
+.app-header {
+  padding: 32px 0 16px;
+  text-align: left;
+}
+
+.app-header h1 {
+  font-size: 28px;
+  letter-spacing: -0.4px;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 10px 4px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.tab:hover {
+  color: var(--text-primary);
+}
+
+.tab.active {
+  color: var(--text-primary);
+  border-bottom-color: var(--series-1);
+}
+
+.panel {
+  text-align: left;
+  padding-top: 24px;
+}
+
+.state-msg {
+  color: var(--text-muted);
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+.state-msg.error {
+  color: #c94a3a;
+}
+
+.card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.controls label {
+  font-size: 13px;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.controls select,
+.controls input {
+  font: inherit;
+  font-size: 14px;
+  padding: 6px 8px;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  background: var(--surface-1);
+  color: var(--text-primary);
+}
+
+.legend-toggles {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.legend-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+}
+
+.legend-toggle.off {
+  opacity: 0.4;
+}
+
+.legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.data-table {
+  font-size: 14px;
+}
+
+.data-table th {
+  text-align: left;
+  font-weight: 500;
+  color: var(--text-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.data-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.data-table th.num,
+.data-table td.num {
+  text-align: right;
+}
+
+.data-table tr:hover td {
+  background: color-mix(in srgb, var(--text-primary) 4%, transparent);
+}
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable:hover {
+  color: var(--text-secondary);
+}

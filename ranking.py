@@ -143,10 +143,6 @@ pen_takers = {norm(n) for n in PENALTY_TAKERS}
 
 
 def cached_json(name, fetch):
-    """Return a cached JSON response from disk, fetching and storing it on a miss.
-
-    The cache never expires; delete the CACHE_DIR folder to force a refresh.
-    """
     os.makedirs(CACHE_DIR, exist_ok=True)
     path = os.path.join(CACHE_DIR, name)
     if os.path.exists(path):
