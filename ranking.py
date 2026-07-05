@@ -6,6 +6,7 @@ from collections import defaultdict
 from urllib.parse import urlparse
 
 import requests
+from numpy import inf
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -240,7 +241,7 @@ def map_player_stats(players):
         info = full_player_info[name]
         info["selected"] = player["percentSelected"]
 
-        shots = goals = minutes = chances = tackles = 0
+        shots = goals = minutes = chances = tackles = assists = 0
         clean_sheets = conceded = saves = 0
         for s in data:
             st = s["stats"]
@@ -252,10 +253,12 @@ def map_player_stats(players):
             clean_sheets += st.get("CS", 0)
             conceded += st.get("GC", 0)
             saves += st.get("S", 0)
+            assists += st.get("AS", 0)
 
         info["shots"] = shots
         info["goals_scored"] = goals
         info["minutes_played"] = minutes
+        info["assists"] = assists
         if pos == "MID":
             info["chances"] = chances
             info["tackles"] = tackles
@@ -273,6 +276,12 @@ def rank_players():
         opp_strength = TEAM_STRENGTH.get(opponent)
         team_strength = TEAM_STRENGTH.get(info["team"])
         score = 0
+
+        goals_scored = info.get("goals_scored", 0)
+        score += goals_scored / 2
+
+        assits = info.get("assits", 0)
+        score += assits / 3
         if not opp_strength:
             continue
 
@@ -285,9 +294,13 @@ def rank_players():
             score += 3
 
         score += info.get("shots", 0) / 2
+        chances = info.get("chances", 0)
 
         if info["position"] == "MID":
-            score += (info.get("chances", 0) + info.get("tackles", 0)) / 4
+            score += (info.get("tackles", 0)) / 4
+            score += chances / 2.5
+        else:
+            score += chances / 3
 
         if info["position"] == "GK":
             score += info.get("saves", 0) / 8

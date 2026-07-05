@@ -79,6 +79,7 @@ export default function ProgressionView() {
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(false)
   const [hidden, setHidden] = useState(new Set())
+  const [roundFilter, setRoundFilter] = useState(null)
 
   function load() {
     const players = playersInput
@@ -110,6 +111,36 @@ export default function ProgressionView() {
 
   const rankData = data ? pivot(data, 'ranks') : null
   const pointsData = data ? pivot(data, 'points') : null
+
+  const allRounds = useMemo(() => {
+    if (!data) return []
+    const roundSet = new Set()
+    Object.values(data).forEach((e) => e.rounds.forEach((r) => roundSet.add(r)))
+    return [...roundSet].sort((a, b) => a - b)
+  }, [data])
+
+  useEffect(() => {
+    if (allRounds.length && (roundFilter === null || !allRounds.includes(roundFilter))) {
+      setRoundFilter(allRounds[allRounds.length - 1])
+    }
+  }, [allRounds])
+
+  const roundRows = useMemo(() => {
+    if (!data || roundFilter === null) return null
+    return allManagers
+      .map((m) => {
+        const entry = data[m]
+        const idx = entry.rounds.indexOf(roundFilter)
+        if (idx === -1) return null
+        const cumulative = entry.points[idx]
+        const prevCumulative = idx > 0 ? entry.points[idx - 1] : 0
+        const roundPoints =
+          cumulative == null || prevCumulative == null ? null : cumulative - prevCumulative
+        return { manager: m, roundPoints, cumulative, rank: entry.ranks[idx] }
+      })
+      .filter(Boolean)
+      .sort((a, b) => (b.roundPoints ?? -Infinity) - (a.roundPoints ?? -Infinity))
+  }, [data, allManagers, roundFilter])
 
   function toggleManager(m) {
     setHidden((prev) => {
@@ -167,6 +198,50 @@ export default function ProgressionView() {
               {m}
             </button>
           ))}
+        </div>
+      )}
+
+      {allRounds.length > 0 && (
+        <div className="card" style={{ marginBottom: 20 }}>
+          <div className="controls" style={{ marginBottom: 12 }}>
+            <label>
+              Round
+              <select
+                value={roundFilter ?? ''}
+                onChange={(e) => setRoundFilter(Number(e.target.value))}
+              >
+                {allRounds.map((r) => (
+                  <option key={r} value={r}>
+                    {r}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
+          {roundRows && roundRows.length > 0 ? (
+            <table className="data-table">
+              <thead>
+                <tr>
+                  <th>Manager</th>
+                  <th className="num">Points this round</th>
+                  <th className="num">Overall points</th>
+                  <th className="num">Rank</th>
+                </tr>
+              </thead>
+              <tbody>
+                {roundRows.map((r) => (
+                  <tr key={r.manager}>
+                    <td>{r.manager}</td>
+                    <td className="num">{r.roundPoints ?? '—'}</td>
+                    <td className="num">{r.cumulative ?? '—'}</td>
+                    <td className="num">{r.rank ?? '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          ) : (
+            <p className="state-msg">No data for this round.</p>
+          )}
         </div>
       )}
 
