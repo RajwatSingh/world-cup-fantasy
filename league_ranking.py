@@ -58,7 +58,6 @@ def collect_progression(managers, num_rounds):
             entry["ranks"].append(stats["rank"])
             entry["points"].append(stats["overall_points"])
 
-    print(json.dumps(people, indent=4))
     return progression
 
 
